@@ -37,7 +37,7 @@ jobs:
       - name: Install postcss
         run: sudo npm install -g postcss-cli
       - name: Install autoprefixer
-        run: sudo npm install autoprefixer
+        run: sudo npm install -g autoprefixer
       - name: Checkout
         uses: actions/checkout@v3
         with:
