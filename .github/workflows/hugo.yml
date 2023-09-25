@@ -31,7 +31,7 @@ jobs:
           # npm-shrinkwrap.json or yarn.lock) in the repository root, and uses its
           # hash as a part of the cache key.
           # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
-          cache-dependency-path: '${{ GITHUB_WORKSPACE }}/package-lock.json'
+          cache-dependency-path: '${ GITHUB_WORKSPACE }/package-lock.json'
 
       - uses: actions/cache@v3
         with:
