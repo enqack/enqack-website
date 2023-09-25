@@ -33,11 +33,15 @@ jobs:
           # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
           cache-dependency-path: '**/package-lock.json'
       
-      - run: npm ci
-      - run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/" --contentDir "content/en"
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Build Hugo
+        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
