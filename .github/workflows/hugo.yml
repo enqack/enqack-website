@@ -35,7 +35,7 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Install autoprefixer
-        run: npm install -D autoprefixer
+        run: npm install autoprefixer
       - name: Install postcss-cli
         run: sudo npm install -g postcss-cli
       - name: Install postcss
