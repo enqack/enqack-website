@@ -35,9 +35,7 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Install postcss
-        run: sudo npm install -g postcss-cli
-      - name: Install autoprefixer
-        run: sudo npm install -g autoprefixer
+        run: sudo npm install -D postcss
       - name: Checkout
         uses: actions/checkout@v3
         with:
