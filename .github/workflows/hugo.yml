@@ -34,6 +34,10 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      - name: Install autoprefixer
+        run: sudo npm install -D autoprefixer
+      - name: Install postcss-cli
+        run: sudo npm install -D postcss-cli
       - name: Install postcss
         run: sudo npm install -D postcss
       - name: Checkout
