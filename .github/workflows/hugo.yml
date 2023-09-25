@@ -31,14 +31,7 @@ jobs:
           # npm-shrinkwrap.json or yarn.lock) in the repository root, and uses its
           # hash as a part of the cache key.
           # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
-          cache-dependency-path: '${ GITHUB_WORKSPACE }/package-lock.json'
-
-      - uses: actions/cache@v3
-        with:
-          path: /home/runner/.cache/hugo_cache    # <-- with hugo version v0.116.0 and above
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
+          cache-dependency-path: '**/package-lock.json'
       
       - run: npm ci
       - run: hugo --minify
