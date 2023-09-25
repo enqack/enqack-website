@@ -1,7 +1,6 @@
 ---
 title: "New Theme New Backend; Who's this?"
 date: 2023-09-24T18:22:38-04:00
-draft: true
 categories: ["this"]
 ---
 
