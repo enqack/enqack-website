@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Enqack – websites</title><link>/tags/websites/</link><description>Recent content in websites on Enqack</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/websites/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Websites</title><link>/docs/unreal-engine/websites/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>/docs/unreal-engine/websites/</guid><description>
 &lt;p>A list of websites related to Unreal Engine:&lt;/p>
-&lt;p>&lt;a href="https://benui.ca/">Ben(ui)&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://couchlearn.com/">Couch Learn&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://gameprogrammingpatterns.com/">Game Programming Patterns&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.tomlooman.com/">Tom Looman&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://unrealcommunity.wiki/">Unreal Engine Community Wiki&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://unrealcpp.com/">Unreal C++&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://benui.ca/" target="_blank" rel="noopener">Ben(ui)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://couchlearn.com/" target="_blank" rel="noopener">Couch Learn&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://gameprogrammingpatterns.com/" target="_blank" rel="noopener">Game Programming Patterns&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.tomlooman.com/" target="_blank" rel="noopener">Tom Looman&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://unrealcommunity.wiki/" target="_blank" rel="noopener">Unreal Engine Community Wiki&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://unrealcpp.com/" target="_blank" rel="noopener">Unreal C++&lt;/a>&lt;/p></description></item></channel></rss>

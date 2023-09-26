@@ -198,11 +198,11 @@
 &lt;/div>
 &lt;/div>&lt;h2 id="diving-deeper">Diving Deeper&lt;/h2>
 &lt;p>To get a better look at what I have done reference my dotfiles and scripts repositories.&lt;/p>
-&lt;p>&lt;a href="http://github.com/enqack/.dotfiles">https://github.com/enqack/.dotfiles&lt;/a>&lt;/p>
-&lt;p>&lt;a href="http://github.com/enqack/.scripts">https://github.com/enqack/.scripts&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://github.com/enqack/.dotfiles" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://github.com/enqack/.scripts" target="_blank" rel="noopener">https://github.com/enqack/.scripts&lt;/a>&lt;/p>
 &lt;p>BSPWM&amp;rsquo;s configuration file is located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc">https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc&lt;/a>&lt;/p>
 &lt;p>Polybar&amp;rsquo;s configuration files are located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar">https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar&lt;/a>&lt;/p>
 &lt;p>Polybar&amp;rsquo;s lauch script is located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.scripts/blob/master/polybar/launch.sh">https://github.com/enqack/.scripts/blob/master/polybar/launch.sh&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://github.com/enqack/.scripts/blob/master/polybar/launch.sh" target="_blank" rel="noopener">https://github.com/enqack/.scripts/blob/master/polybar/launch.sh&lt;/a>&lt;/p></description></item></channel></rss>

@@ -1,5 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Enqack – Enqack</title><link>/</link><description>Recent content on Enqack</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: New Theme New Backend; Who's this?</title><link>/blog/2023/09/24/new-theme-new-backend-whos-this/</link><pubDate>Sun, 24 Sep 2023 18:22:38 -0400</pubDate><guid>/blog/2023/09/24/new-theme-new-backend-whos-this/</guid><description>
-&lt;p>Enqack.net was running a forked and customized theme for Jekyll to produce a static site. I have moved over to &lt;a href="https://gohugo.io/">Hugo&lt;/a> with the &lt;a href="https://www.docsy.dev/">Docsy&lt;/a> theme. Hugo is a static site generator written in go. A blog post or documentation of the process will be posted soon.&lt;/p></description></item><item><title>Blog: BSPWM Configuration</title><link>/blog/2022/05/02/bspwm-configuration/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/bspwm-configuration/</guid><description>
+&lt;p>Enqack.net was running a forked and customized theme for Jekyll to produce a static site. I have moved over to &lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> with the &lt;a href="https://www.docsy.dev/" target="_blank" rel="noopener">Docsy&lt;/a> theme. Hugo is a static site generator written in go. A blog post or documentation of the process will be posted soon.&lt;/p></description></item><item><title>Blog: BSPWM Configuration</title><link>/blog/2022/05/02/bspwm-configuration/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/bspwm-configuration/</guid><description>
 &lt;p>A project I have been working on is to redesign my dotfiles to work on multiple machines running different distributions. Some solutions for BSPWM were required that have inspired this post. I will cover a few items, though nothing ground-breaking, that I hope will prove useful to someone.&lt;/p>
 &lt;h2 id="getting-started-with-bspwm">Getting Started with BSPWM&lt;/h2>
 &lt;p>Chances are you came here not looking to install BSPWM but extend your configuration. Though, if you are new to BSPWM here are basic instructions to install it on Arch Linux.&lt;/p>
@@ -199,11 +199,11 @@
 &lt;/div>
 &lt;/div>&lt;h2 id="diving-deeper">Diving Deeper&lt;/h2>
 &lt;p>To get a better look at what I have done reference my dotfiles and scripts repositories.&lt;/p>
-&lt;p>&lt;a href="http://github.com/enqack/.dotfiles">https://github.com/enqack/.dotfiles&lt;/a>&lt;/p>
-&lt;p>&lt;a href="http://github.com/enqack/.scripts">https://github.com/enqack/.scripts&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://github.com/enqack/.dotfiles" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://github.com/enqack/.scripts" target="_blank" rel="noopener">https://github.com/enqack/.scripts&lt;/a>&lt;/p>
 &lt;p>BSPWM&amp;rsquo;s configuration file is located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc">https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc&lt;/a>&lt;/p>
 &lt;p>Polybar&amp;rsquo;s configuration files are located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar">https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar&lt;/a>&lt;/p>
 &lt;p>Polybar&amp;rsquo;s lauch script is located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.scripts/blob/master/polybar/launch.sh">https://github.com/enqack/.scripts/blob/master/polybar/launch.sh&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://github.com/enqack/.scripts/blob/master/polybar/launch.sh" target="_blank" rel="noopener">https://github.com/enqack/.scripts/blob/master/polybar/launch.sh&lt;/a>&lt;/p></description></item></channel></rss>
