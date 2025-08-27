@@ -1,18 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Enqack – Unreal Engine</title><link>/categories/unreal-engine/</link><description>Recent content in Unreal Engine on Enqack</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/unreal-engine/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Websites</title><link>/docs/unreal-engine/websites/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>/docs/unreal-engine/websites/</guid><description>
-&lt;p>A list of websites related to Unreal Engine:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unreal Engine on Enqack</title><link>/categories/unreal-engine/</link><description>Recent content in Unreal Engine on Enqack</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 25 Sep 2023 01:58:35 -0400</lastBuildDate><atom:link href="/categories/unreal-engine/index.xml" rel="self" type="application/rss+xml"/><item><title>Websites</title><link>/docs/unreal-engine/websites/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>/docs/unreal-engine/websites/</guid><description>&lt;p>A list of websites related to Unreal Engine:&lt;/p>
 &lt;p>&lt;a href="https://benui.ca/" target="_blank" rel="noopener">Ben(ui)&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://couchlearn.com/" target="_blank" rel="noopener">Couch Learn&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://gameprogrammingpatterns.com/" target="_blank" rel="noopener">Game Programming Patterns&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://www.tomlooman.com/" target="_blank" rel="noopener">Tom Looman&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://unrealcommunity.wiki/" target="_blank" rel="noopener">Unreal Engine Community Wiki&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://unrealcpp.com/" target="_blank" rel="noopener">Unreal C++&lt;/a>&lt;/p></description></item><item><title>Docs: Debug Macros</title><link>/docs/unreal-engine/debug-macros/</link><pubDate>Sun, 24 Sep 2023 16:19:14 -0400</pubDate><guid>/docs/unreal-engine/debug-macros/</guid><description>
-&lt;div class="pageinfo pageinfo-warning">
+&lt;p>&lt;a href="https://unrealcpp.com/" target="_blank" rel="noopener">Unreal C++&lt;/a>&lt;/p></description></item><item><title>Debug Macros</title><link>/docs/unreal-engine/debug-macros/</link><pubDate>Sun, 24 Sep 2023 16:19:14 -0400</pubDate><guid>/docs/unreal-engine/debug-macros/</guid><description>&lt;div class="pageinfo pageinfo-warning">
 &lt;p>Work in progress.&lt;/p>
+
 &lt;/div>
+
 &lt;p>Debug macros for Unreal Engine. Known to work in versions: 4.26 - 5.3&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1&lt;/a>
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1&lt;/a>
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2"> 2&lt;/a>
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3"> 3&lt;/a>
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4"> 4&lt;/a>
@@ -59,51 +59,51 @@
 &lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-45">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-45">45&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#pragma once
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#include&lt;/span> &lt;span style="color:#00f">&amp;#34;DrawDebugHelpers.h&amp;#34;&lt;/span>&lt;span style="color:#00f">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">&lt;/span>
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#pragma once
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;#34;DrawDebugHelpers.h&amp;#34;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000">// Debug Shape Macros
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000">&lt;/span>&lt;span style="color:#00f">#define DRAW_SPHERE(Location) if (GetWorld()) DrawDebugSphere(GetWorld(), Location, 25.f, 12, FColor::Red, true);
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define DRAW_SPHERE_COLOR(Location, Color) DrawDebugSphere(GetWorld(), Location, 8.f, 12, Color, false, 5.f);
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define DRAW_SPHERE_SINGLE_FRAME(Location) if (GetWorld()) DrawDebugSphere(GetWorld(), Location, 25.f, 12, FColor::Red, false, -1.f);
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define DRAW_LINE(StartLocation, EndLocation) if (GetWorld()) DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, true, -1.f, 0, 1.f);
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define DRAW_LINE_SINGLE_FRAME(StartLocation, EndLocation) if (GetWorld()) DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, -1.f, 0, 1.f);
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define DRAW_POINT(Location) if (GetWorld()) DrawDebugPoint(GetWorld(), Location, 15.f, FColor::Red, true);
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define DRAW_POINT_SINGLE_FRAME(Location) if (GetWorld()) DrawDebugPoint(GetWorld(), Location, 15.f, FColor::Red, false, -1.f);
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define DRAW_VECTOR(StartLocation, EndLocation) if (GetWorld()) \
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f"> { \
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f"> DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, true, -1.f, 0, 1.f); \
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f"> DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, true); \
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f"> }
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define DRAW_VECTOR_SINGLE_FRAME(StartLocation, EndLocation) if (GetWorld()) \
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f"> { \
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f"> DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, -1.f, 0, 1.f); \
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f"> DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, false, -1.f); \
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f"> }
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000">// Log Macros
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000">&lt;/span>&lt;span style="color:#00f">#define LOG_WARNING(Format, ...) UE_LOG(LogTemp, Warning, TEXT(Format), ##__VA_ARGS__)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define LOG_ERROR(Format, ...) UE_LOG(LogTemp, Error, TEXT(Format), ##__VA_ARGS__)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define LOG_DISPLAY(Format, ...) UE_LOG(LogTemp, Display, TEXT(Format), ##__VA_ARGS__)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define LOG_VERBOSE(Format, ...) UE_LOG(LogTemp, Verbose, TEXT(Format), ##__VA_ARGS__)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define LOG_FATAL(Format, ...) UE_LOG(LogTemp, Fatal, TEXT(Format), ##__VA_ARGS__)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000">// Screen Debug Macros
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000">&lt;/span>&lt;span style="color:#00f">#define SCREEN_DEBUG_WARNING(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Yellow, FString::Printf(TEXT(Format), ##__VA_ARGS__))
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define SCREEN_DEBUG_ERROR(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Red, FString::Printf(TEXT(Format), ##__VA_ARGS__))
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define SCREEN_DEBUG_DISPLAY(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::White, FString::Printf(TEXT(Format), ##__VA_ARGS__))
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define SCREEN_DEBUG_VERBOSE(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Green, FString::Printf(TEXT(Format), ##__VA_ARGS__))
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define SCREEN_DEBUG_FATAL(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Black, FString::Printf(TEXT(Format), ##__VA_ARGS__))
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define SCREEN_DEBUG_CLEAR() if (GEngine) GEngine-&amp;gt;ClearOnScreenDebugMessages()
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000">// Log and Screen Debug Macros
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000">&lt;/span>&lt;span style="color:#00f">#define LOG_SCREEN_DEBUG_WARNING(Format, ...) LOG_WARNING(Format, ##__VA_ARGS__); SCREEN_DEBUG_WARNING(Format,Key,Duration, ...)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define LOG_SCREEN_DEBUG_ERROR(Format, ...) LOG_ERROR(Format, ##__VA_ARGS__); SCREEN_DEBUG_ERROR(Format,Key,Duration, ...)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define LOG_SCREEN_DEBUG_DISPLAY(Format, ...) LOG_DISPLAY(Format, ##__VA_ARGS__); SCREEN_DEBUG_DISPLAY(Format,Key,Duration, ...)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define LOG_SCREEN_DEBUG_VERBOSE(Format, ...) LOG_VERBOSE(Format, ##__VA_ARGS__); SCREEN_DEBUG_VERBOSE(Format,Key,Duration, ...)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#define LOG_SCREEN_DEBUG_FATAL(Format, ...) LOG_FATAL(Format, ##__VA_ARGS__); SCREEN_DEBUG_FATAL(Format,Key,Duration, ...)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Debug Shape Macros
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">#define DRAW_SPHERE(Location) if (GetWorld()) DrawDebugSphere(GetWorld(), Location, 25.f, 12, FColor::Red, true);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_SPHERE_COLOR(Location, Color) DrawDebugSphere(GetWorld(), Location, 8.f, 12, Color, false, 5.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_SPHERE_SINGLE_FRAME(Location) if (GetWorld()) DrawDebugSphere(GetWorld(), Location, 25.f, 12, FColor::Red, false, -1.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_LINE(StartLocation, EndLocation) if (GetWorld()) DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, true, -1.f, 0, 1.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_LINE_SINGLE_FRAME(StartLocation, EndLocation) if (GetWorld()) DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, -1.f, 0, 1.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_POINT(Location) if (GetWorld()) DrawDebugPoint(GetWorld(), Location, 15.f, FColor::Red, true);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_POINT_SINGLE_FRAME(Location) if (GetWorld()) DrawDebugPoint(GetWorld(), Location, 15.f, FColor::Red, false, -1.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_VECTOR(StartLocation, EndLocation) if (GetWorld()) \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">	{ \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">		DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, true, -1.f, 0, 1.f); \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">		DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, true); \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">	}
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_VECTOR_SINGLE_FRAME(StartLocation, EndLocation) if (GetWorld()) \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">	{ \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">		DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, -1.f, 0, 1.f); \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">		DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, false, -1.f); \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">	}
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Log Macros
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">#define LOG_WARNING(Format, ...) UE_LOG(LogTemp, Warning, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_ERROR(Format, ...) UE_LOG(LogTemp, Error, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_DISPLAY(Format, ...) UE_LOG(LogTemp, Display, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_VERBOSE(Format, ...) UE_LOG(LogTemp, Verbose, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_FATAL(Format, ...) UE_LOG(LogTemp, Fatal, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Screen Debug Macros
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_WARNING(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Yellow, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_ERROR(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Red, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_DISPLAY(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::White, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_VERBOSE(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Green, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_FATAL(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Black, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_CLEAR() if (GEngine) GEngine-&amp;gt;ClearOnScreenDebugMessages()
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Log and Screen Debug Macros
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_WARNING(Format, ...) LOG_WARNING(Format, ##__VA_ARGS__); SCREEN_DEBUG_WARNING(Format,Key,Duration, ...)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_ERROR(Format, ...) LOG_ERROR(Format, ##__VA_ARGS__); SCREEN_DEBUG_ERROR(Format,Key,Duration, ...)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_DISPLAY(Format, ...) LOG_DISPLAY(Format, ##__VA_ARGS__); SCREEN_DEBUG_DISPLAY(Format,Key,Duration, ...) 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_VERBOSE(Format, ...) LOG_VERBOSE(Format, ##__VA_ARGS__); SCREEN_DEBUG_VERBOSE(Format,Key,Duration, ...) 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_FATAL(Format, ...) LOG_FATAL(Format, ##__VA_ARGS__); SCREEN_DEBUG_FATAL(Format,Key,Duration, ...) 
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item></channel></rss>

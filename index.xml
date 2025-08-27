@@ -1,209 +1,1135 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Enqack – Enqack</title><link>/</link><description>Recent content on Enqack</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: New Theme New Backend; Who's this?</title><link>/blog/2023/09/24/new-theme-new-backend-whos-this/</link><pubDate>Sun, 24 Sep 2023 18:22:38 -0400</pubDate><guid>/blog/2023/09/24/new-theme-new-backend-whos-this/</guid><description>
-&lt;p>Enqack.net was running a forked and customized theme for Jekyll to produce a static site. I have moved over to &lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> with the &lt;a href="https://www.docsy.dev/" target="_blank" rel="noopener">Docsy&lt;/a> theme. Hugo is a static site generator written in go. A blog post or documentation of the process will be posted soon.&lt;/p></description></item><item><title>Blog: BSPWM Configuration</title><link>/blog/2022/05/02/bspwm-configuration/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/bspwm-configuration/</guid><description>
-&lt;p>A project I have been working on is to redesign my dotfiles to work on multiple machines running different distributions. Some solutions for BSPWM were required that have inspired this post. I will cover a few items, though nothing ground-breaking, that I hope will prove useful to someone.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Enqack</title><link>/</link><description>Recent content on Enqack</description><generator>Hugo</generator><language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>About Enqack</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;link rel="preload" as="image" href="/about/mixer-background_hu_e97f999914766b36.jpg" media="(max-width: 1200px)">
+&lt;link rel="preload" as="image" href="/about/mixer-background_hu_67da809e0f8d02a2.jpg" media="(min-width: 1200px)">
+&lt;style>
+#td-cover-block-0 {
+ background-image: url(/about/mixer-background_hu_e97f999914766b36.jpg);
+}
+@media only screen and (min-width: 1200px) {
+ #td-cover-block-0 {
+ background-image: url(/about/mixer-background_hu_67da809e0f8d02a2.jpg);
+ }
+}
+&lt;/style>
+&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark">
+ &lt;div class="col-12">
+ &lt;div class="container td-overlay__inner">
+ &lt;div class="text-center">
+ &lt;h1 class="display-1 mt-0 mt-md-5 pb-4">About Enqack&lt;/h1>
+ 
+ &lt;div class="pt-3 lead">
+ 
+ &lt;p class="lead mt-5">Enquiry &amp;mdash; Acknowledgede!&lt;/p>
+
+ 
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+&lt;/section>
+
+&lt;div>&lt;a id="td-block-1" class="td-offset-anchor">&lt;/a>&lt;/div>
+&lt;section class="row td-box td-box--1 position-relative td-box--height-auto">
+&lt;div class="col-12">
+&lt;div class="container text-center td-arrow-down">
+&lt;div class="h4 mb-0">
+&lt;p>Enqack is a personal site mostly use for my own reference.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/section>
+&lt;div>&lt;a id="td-block-2" class="td-offset-anchor">&lt;/a>&lt;/div>
+&lt;section class="row td-box td-box--2 td-box--height-auto">
+&lt;div class="col">
+&lt;div class="container">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Deluge Shortcuts</title><link>/docs/synthstrom-deluge/shortcuts/</link><pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate><guid>/docs/synthstrom-deluge/shortcuts/</guid><description>&lt;h2 id="all-views">All Views&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Adjust brightness&lt;/td>
+ &lt;td>Shift + Learn + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Settings menu&lt;/td>
+ &lt;td>Shift + Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Undo&lt;/td>
+ &lt;td>Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Redo&lt;/td>
+ &lt;td>Shift + Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Tempo change&lt;/td>
+ &lt;td>turn Tempo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Tempo change +1 BPM&lt;/td>
+ &lt;td>press &amp;amp; turn Tempo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Swing adjustment&lt;/td>
+ &lt;td>Shift + turn Tempo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Metronome on/off&lt;/td>
+ &lt;td>Shift + Tap Tempo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Navigation&lt;/td>
+ &lt;td>Check current zoom level&lt;/td>
+ &lt;td>Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Navigation&lt;/td>
+ &lt;td>Change current zoom level&lt;/td>
+ &lt;td>press &amp;amp; turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Navigation&lt;/td>
+ &lt;td>Scroll left or right&lt;/td>
+ &lt;td>turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Navigation&lt;/td>
+ &lt;td>Scroll up or down&lt;/td>
+ &lt;td>turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Load song (saved tempo)&lt;/td>
+ &lt;td>Load + turn Select, then Load&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Load song (current tempo)&lt;/td>
+ &lt;td>Load + turn Select, then Tempo + Load&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Delete song&lt;/td>
+ &lt;td>Shift + Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>New song&lt;/td>
+ &lt;td>Shift + Load, then Load&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Delay load&lt;/td>
+ &lt;td>Load, then turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sampling&lt;/td>
+ &lt;td>Loop resample&lt;/td>
+ &lt;td>Record + Play, then Record + Play&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sampling&lt;/td>
+ &lt;td>Resample&lt;/td>
+ &lt;td>Shift + Record&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sequencer&lt;/td>
+ &lt;td>Nudge clock&lt;/td>
+ &lt;td>Horizontal + turn Tempo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameter-control---rotary-push-controls---toggle-options">Parameter Control - Rotary Push Controls - Toggle Options&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>LP, HP, EQ option&lt;/td>
+ &lt;td>[CUTOFF / RES] = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>LPF slope type&lt;/td>
+ &lt;td>[CUTOFF / RES] = on, lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Ping-Pong on/off&lt;/td>
+ &lt;td>[DELAY TIME / AMOUNT] = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Delay style digital / analog&lt;/td>
+ &lt;td>[DELAY TIME / AMOUNT] = on, lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Compressor sync 8th–32nd&lt;/td>
+ &lt;td>[SIDECHAIN / REVERB] = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Reverb room size preset&lt;/td>
+ &lt;td>[SIDECHAIN / REVERB] = on, lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Effect (song/kit): chorus, flanger, phaser&lt;/td>
+ &lt;td>[MOD RATE / DEPTH] &amp;amp; Affect Entire = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Effect (song/kit): depth, offset, feedback&lt;/td>
+ &lt;td>[MOD RATE / DEPTH] &amp;amp; Affect Entire = on, lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Stutter&lt;/td>
+ &lt;td>[STUTTER / CUSTOM 1] = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Stutter – ramp speed&lt;/td>
+ &lt;td>[STUTTER / CUSTOM 1] = on, press &amp;amp; turn upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="song-view">Song View&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Switch song views – default row&lt;/td>
+ &lt;td>Hold Song + turn Select (change row or grid)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Clip parameter adjustment&lt;/td>
+ &lt;td>Hold Pad on grid + turn upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Change section assignment / Colour&lt;/td>
+ &lt;td>Shift + Section&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Change pad row colour in row view&lt;/td>
+ &lt;td>Hold Pad for row + Shift + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Section repeats / share status&lt;/td>
+ &lt;td>Press Section + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Move row&lt;/td>
+ &lt;td>Hold Pad of row to move + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Clone clip&lt;/td>
+ &lt;td>Hold Pad of master clip + press Pad of another row&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Solo section&lt;/td>
+ &lt;td>Tap Section&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Solo clip (arm)&lt;/td>
+ &lt;td>Horizontal + press clip’s Launch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Solo clip (Immediate)&lt;/td>
+ &lt;td>Shift + press clip’s Launch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Un-solo&lt;/td>
+ &lt;td>Press clip’s Mute&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Instant mute / launch&lt;/td>
+ &lt;td>Shift + Mute&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Delete clip&lt;/td>
+ &lt;td>Hold Pad of clip + press Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Drag clip instance to arranger&lt;/td>
+ &lt;td>Hold Pad + press Song + turn Horizontal, release pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Record to arranger&lt;/td>
+ &lt;td>Hold Record + press Song&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Master compressor mode&lt;/td>
+ &lt;td>Affect Entire = ON, [SIDECHAIN] ON, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Grid View – Pad Modes&lt;/td>
+ &lt;td>Press Audition (Green = Set Launch mode / Blue = edit)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Create audio clip&lt;/td>
+ &lt;td>Hold Pad of empty clip + Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Set input source for audio clip&lt;/td>
+ &lt;td>Hold Learn + press Pad of clip&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Loop record&lt;/td>
+ &lt;td>In record mode, press Play with armed, empty audio clips present&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Close loop recording&lt;/td>
+ &lt;td>Press Launch of clip&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Close loop + immediate solo&lt;/td>
+ &lt;td>Horizontal + press Launch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Loop record during playback&lt;/td>
+ &lt;td>In record mode, unmute armed, empty audio clip&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Overdub&lt;/td>
+ &lt;td>Hold Record + press Pad of clip row underneath&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Continuous overdub layering&lt;/td>
+ &lt;td>Hold Record + press Audition of row underneath&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>‘Loop pedal’ record&lt;/td>
+ &lt;td>Record loop while no other clip is playing and metronome is off&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Grab tempo from audio clip&lt;/td>
+ &lt;td>Tempo + press Pad for clip row (Song) or any pad (Clip View)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Select MIDI switch LOOP target&lt;/td>
+ &lt;td>Enter audio clip or hold clip row in song view + press switch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Auto extending instrument clip record&lt;/td>
+ &lt;td>In record mode, unmute armed empty clip during playback&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="arranger-view">Arranger View&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Place clip instance&lt;/td>
+ &lt;td>Press Pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Delete clip instance&lt;/td>
+ &lt;td>Pad (leftmost start pad of an instance)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Clip instance length&lt;/td>
+ &lt;td>Hold Pad start + press Pad end on same row&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Move clip instance horizontally&lt;/td>
+ &lt;td>Hold Pad + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Change instance clip&lt;/td>
+ &lt;td>Hold Pad + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Make clip instance unique&lt;/td>
+ &lt;td>Shift + Pad (creates a ‘white’ clip)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Adjust clip instance parameters&lt;/td>
+ &lt;td>Hold Pad + turn upper/lower Gold for selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Enter clip view for a clip&lt;/td>
+ &lt;td>Press any clip instance pad other than the first/leftmost&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Drag ‘unique’ clip instance to song view&lt;/td>
+ &lt;td>Hold Pad + Song + turn Vertical, then release pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Row&lt;/td>
+ &lt;td>Quantize or Humanize row&lt;/td>
+ &lt;td>Hold Audition + turn Tempo (Right = Quantize / Left = Humanize)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Row&lt;/td>
+ &lt;td>Move track&lt;/td>
+ &lt;td>Hold Audition + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Mute / unmute track&lt;/td>
+ &lt;td>Mute for row&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Solo track&lt;/td>
+ &lt;td>Horizontal + Mute for instrument&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Change or Add new instrument&lt;/td>
+ &lt;td>Hold Audition + turn Select or press Synth/Kit/MIDI/CV&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Delete track row&lt;/td>
+ &lt;td>Hold Audition + Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Audition instrument&lt;/td>
+ &lt;td>Audition (Song’s root note or snare drum in kit mode)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Arrangement&lt;/td>
+ &lt;td>Clear arrangement&lt;/td>
+ &lt;td>Horizontal + Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Create new audio track&lt;/td>
+ &lt;td>Empty lane Audition + Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Set input source for audio track&lt;/td>
+ &lt;td>Learn + Audition of audio track&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Record audio from current position&lt;/td>
+ &lt;td>Press Play while in Record, with armed audio present&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="clip-view">Clip View&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Change clip colour&lt;/td>
+ &lt;td>Shift + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Change clip preset, MIDI Ch, CV out&lt;/td>
+ &lt;td>turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Adjust clip length&lt;/td>
+ &lt;td>Shift + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Duplicate / multiply and append content&lt;/td>
+ &lt;td>Shift + Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Horizontal clip shift / nudge L–R&lt;/td>
+ &lt;td>Vertical + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Playback from current screen&lt;/td>
+ &lt;td>Horizontal + Play&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Clear clip&lt;/td>
+ &lt;td>Horizontal + Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Change Clip Direction&lt;/td>
+ &lt;td>Shift + Direction (pad to the right of OSC SYNC on FM MOD 1)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note length&lt;/td>
+ &lt;td>Hold Pad start + press Pad end on same row&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note length – long&lt;/td>
+ &lt;td>Press Pad start, navigate with Horizontal; Horizontal + press Pad end&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note velocity&lt;/td>
+ &lt;td>Hold Pad on the grid + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note repeat&lt;/td>
+ &lt;td>Hold Pad on the grid + hold and turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note play probability %&lt;/td>
+ &lt;td>Hold Pad of note + turn Select (anticlockwise/left)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Set dependence on first note&lt;/td>
+ &lt;td>Hold All Pads together + turn Select (anticlockwise/left)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Iteration dependence for a note&lt;/td>
+ &lt;td>Hold Pad of note + turn Select (clockwise/right)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Copy notes&lt;/td>
+ &lt;td>Hold Learn + Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Paste notes&lt;/td>
+ &lt;td>Hold Learn + Shift + Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Nudge individual notes horizontally&lt;/td>
+ &lt;td>Hold Pad + press &amp;amp; turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Automate a parameter (while recording)&lt;/td>
+ &lt;td>Turn upper/lower Gold of selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Per note parameter change&lt;/td>
+ &lt;td>Hold Pad of note start + turn upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Delete parameter automation&lt;/td>
+ &lt;td>Shift + upper/lower Gold of selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Copy automation&lt;/td>
+ &lt;td>Hold Learn + upper/lower Gold of selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Paste automation&lt;/td>
+ &lt;td>Hold Learn + Shift + upper/lower Gold of selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sample&lt;/td>
+ &lt;td>Load sample&lt;/td>
+ &lt;td>Audition + Load&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sound&lt;/td>
+ &lt;td>Sound Editor&lt;/td>
+ &lt;td>Shift + Pad of shortcut as labelled or Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Preset&lt;/td>
+ &lt;td>Preset load interface&lt;/td>
+ &lt;td>Load + Synth or Kit or MIDI&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Audio clip trim start&lt;/td>
+ &lt;td>Press Pad of leftmost column at start of waveform&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Audio clip trim end&lt;/td>
+ &lt;td>Press Pad of rightmost column at end of waveform&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Euclidean Seq&lt;/td>
+ &lt;td>Number of events on the row&lt;/td>
+ &lt;td>Hold Audition + press &amp;amp; turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Euclidean Seq&lt;/td>
+ &lt;td>Row length&lt;/td>
+ &lt;td>Hold Audition + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Euclidean Seq&lt;/td>
+ &lt;td>Rotate / Shift events or notes&lt;/td>
+ &lt;td>Hold Audition + press &amp;amp; turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="sound-editor">Sound Editor&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Sound Editor&lt;/td>
+ &lt;td>Move cursor&lt;/td>
+ &lt;td>turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Controls&lt;/td>
+ &lt;td>Parameter knob assignment&lt;/td>
+ &lt;td>Hold Learn + turn upper/lower Gold (parameter control)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Controls&lt;/td>
+ &lt;td>MIDI knob assignment&lt;/td>
+ &lt;td>Hold Learn + turn (MIDI) Control of external device&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Controls&lt;/td>
+ &lt;td>Unassign MIDI control knob&lt;/td>
+ &lt;td>Shift + Learn&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Preset&lt;/td>
+ &lt;td>Save preset&lt;/td>
+ &lt;td>Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Apply a change to entire kit&lt;/td>
+ &lt;td>Hold Affect Entire while changing parameter&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="synth-keyboard-midi-cv-clips">Synth, Keyboard, MIDI, CV Clips&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Synth&lt;/td>
+ &lt;td>Synth resample&lt;/td>
+ &lt;td>Record + Audition or grid Pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Synth&lt;/td>
+ &lt;td>Load blank synth&lt;/td>
+ &lt;td>Shift + Synth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Synth&lt;/td>
+ &lt;td>Load synth preset to a kit row&lt;/td>
+ &lt;td>Audition + Synth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Synth&lt;/td>
+ &lt;td>Save synth preset&lt;/td>
+ &lt;td>Save + Synth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Cycle through default scales&lt;/td>
+ &lt;td>Shift + Scale&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Change root note&lt;/td>
+ &lt;td>Scale + Audition row of new note&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Chromatic scale&lt;/td>
+ &lt;td>Scale to turn it OFF (LED unlit)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Create scale&lt;/td>
+ &lt;td>In chromatic mode (scale OFF); select pad notes, then press Scale&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Alter current scale&lt;/td>
+ &lt;td>Hold Audition + press &amp;amp; turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Transpose&lt;/td>
+ &lt;td>Transpose current clip an octave&lt;/td>
+ &lt;td>press &amp;amp; turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Transpose&lt;/td>
+ &lt;td>Transpose current clip a semitone&lt;/td>
+ &lt;td>(Chromatic – scale OFF) Shift + press &amp;amp; turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Transpose&lt;/td>
+ &lt;td>Transpose ALL clips a semitone&lt;/td>
+ &lt;td>(Scale ON) Shift + press &amp;amp; turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Create full screen ‘drone’ note&lt;/td>
+ &lt;td>Hold Pad first column + press Pad last column of grid&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>MIDI&lt;/td>
+ &lt;td>Assign MIDI CC to parameter knob (MIDI Track)&lt;/td>
+ &lt;td>upper/lower Gold + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kit-clips">Kit Clips&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Change colour of specific row&lt;/td>
+ &lt;td>Shift + Audition + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Save kit preset&lt;/td>
+ &lt;td>Save + Kit&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Randomize Kit Row&lt;/td>
+ &lt;td>Audition for row to edit + Random&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Move row&lt;/td>
+ &lt;td>Hold Audition for row + Mute + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Delete row&lt;/td>
+ &lt;td>Pad for row to delete + Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Delete all unused rows&lt;/td>
+ &lt;td>Kit + Shift + Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sample&lt;/td>
+ &lt;td>Slice a sample&lt;/td>
+ &lt;td>Shift + Kit, turn Select to choose sample; Shift + Select to set slices&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sample&lt;/td>
+ &lt;td>Lazy Chop Option&lt;/td>
+ &lt;td>In slicer &amp;amp; number selection, Horizontal to open manual lazy slicer pads&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sample&lt;/td>
+ &lt;td>Record sample from input&lt;/td>
+ &lt;td>Audition + Record to start; Record again to end&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>CV&lt;/td>
+ &lt;td>Set kit row output to gate&lt;/td>
+ &lt;td>Audition + press CV&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>CV&lt;/td>
+ &lt;td>Set kit row CV gate&lt;/td>
+ &lt;td>Audition + turn lower Gold (CV row required)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>MIDI&lt;/td>
+ &lt;td>Set kit row output to MIDI&lt;/td>
+ &lt;td>Audition + press MIDI&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>MIDI&lt;/td>
+ &lt;td>Set kit row MIDI channel&lt;/td>
+ &lt;td>Audition + turn lower Gold (MIDI row required)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>MIDI&lt;/td>
+ &lt;td>Set kit row MIDI note&lt;/td>
+ &lt;td>Audition + turn upper Gold (MIDI row required)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="keyboard">Keyboard&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Select Keyboard view&lt;/td>
+ &lt;td>Keyboard&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Isomorphic, In-Key or Norns&lt;/td>
+ &lt;td>Keyboard + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Note offset&lt;/td>
+ &lt;td>Shift + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Change Scale&lt;/td>
+ &lt;td>Scale + Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Change Root Note&lt;/td>
+ &lt;td>Scale + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="automation--automation-editor--clip-view">Automation &amp;amp; Automation Editor – Clip View&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Select Automation Mode&lt;/td>
+ &lt;td>Press Clip twice (flashes blue)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Select Automation Mode&lt;/td>
+ &lt;td>Hold Shift + Clip or Audition + Clip&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Select Automation Parameter&lt;/td>
+ &lt;td>Shift + Pad or turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Select Affected Kit Rows&lt;/td>
+ &lt;td>Affect Entire: ON for all, OFF for selected rows&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Clear Automation&lt;/td>
+ &lt;td>Horizontal + Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Record Automation&lt;/td>
+ &lt;td>Record, Play, then turn upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Copy Automation&lt;/td>
+ &lt;td>Learn + upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Paste Automation&lt;/td>
+ &lt;td>Shift + Learn + upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Delete Automation&lt;/td>
+ &lt;td>Shift + upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Interpolation On/Off&lt;/td>
+ &lt;td>Shift + Interpolation (first column of grid)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Check Parameter&lt;/td>
+ &lt;td>Press flashing Pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Set Parameter Column Value&lt;/td>
+ &lt;td>Press Pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Change Parameter Column Value&lt;/td>
+ &lt;td>Hold Pad + turn upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Set long automation shape&lt;/td>
+ &lt;td>Hold Pad (start) + Press Pad (end)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Pad selection mode&lt;/td>
+ &lt;td>Shift + press Waveform shortcut pad (first column)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Pad selection mode edit&lt;/td>
+ &lt;td>turn upper/lower Gold in pad selection mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Duplicate Automation&lt;/td>
+ &lt;td>Shift + Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Shift Automation&lt;/td>
+ &lt;td>Vertical + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Reduce clip length&lt;/td>
+ &lt;td>Shift + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>View zoom level&lt;/td>
+ &lt;td>Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Change zoom level&lt;/td>
+ &lt;td>press &amp;amp; turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Scroll grid&lt;/td>
+ &lt;td>turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>Source: &lt;a href="https://delugecommunity.com/reference/shortcuts/" target="_blank" rel="noopener">Deluge Community — Shortcuts&lt;/a> (c1.0.0).&lt;/p></description></item><item><title>Websites</title><link>/docs/synthstrom-deluge/websites/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>/docs/synthstrom-deluge/websites/</guid><description>&lt;p>A list of websites related to Synthstrom Audiable Deluge:&lt;/p>
+&lt;p>&lt;a href="https://synthstrom.com/" target="_blank" rel="noopener">Synthstrom Audiable&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://delugecommunity.com/" target="_blank" rel="noopener">Deluge Community&lt;/a>&lt;/p></description></item><item><title>Websites</title><link>/docs/unreal-engine/websites/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>/docs/unreal-engine/websites/</guid><description>&lt;p>A list of websites related to Unreal Engine:&lt;/p>
+&lt;p>&lt;a href="https://benui.ca/" target="_blank" rel="noopener">Ben(ui)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://couchlearn.com/" target="_blank" rel="noopener">Couch Learn&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://gameprogrammingpatterns.com/" target="_blank" rel="noopener">Game Programming Patterns&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.tomlooman.com/" target="_blank" rel="noopener">Tom Looman&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://unrealcommunity.wiki/" target="_blank" rel="noopener">Unreal Engine Community Wiki&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://unrealcpp.com/" target="_blank" rel="noopener">Unreal C++&lt;/a>&lt;/p></description></item><item><title>New Theme New Backend; Who's this?</title><link>/blog/2023/09/24/new-theme-new-backend-whos-this/</link><pubDate>Sun, 24 Sep 2023 18:22:38 -0400</pubDate><guid>/blog/2023/09/24/new-theme-new-backend-whos-this/</guid><description>&lt;p>Enqack.net was running a forked and customized theme for Jekyll to produce a static site. I have moved over to &lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> with the &lt;a href="https://www.docsy.dev/" target="_blank" rel="noopener">Docsy&lt;/a> theme. Hugo is a static site generator written in go. A blog post or documentation of the process will be posted at some point.&lt;/p></description></item><item><title>Debug Macros</title><link>/docs/unreal-engine/debug-macros/</link><pubDate>Sun, 24 Sep 2023 16:19:14 -0400</pubDate><guid>/docs/unreal-engine/debug-macros/</guid><description>&lt;div class="pageinfo pageinfo-warning">
+&lt;p>Work in progress.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Debug macros for Unreal Engine. Known to work in versions: 4.26 - 5.3&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-14">14&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-15">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-15">15&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-16">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-16">16&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-17">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-17">17&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-18">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-18">18&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-19">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-19">19&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-20">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-20">20&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-21">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-21">21&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-22">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-22">22&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-23">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-23">23&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-24">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-24">24&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-25">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-25">25&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-26">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-26">26&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-27">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-27">27&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-28">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-28">28&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-29">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-29">29&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-30">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-30">30&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-31">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-31">31&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-32">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-32">32&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-33">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-33">33&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-34">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-34">34&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-35">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-35">35&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-36">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-36">36&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-37">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-37">37&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-38">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-38">38&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-39">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-39">39&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-40">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-40">40&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-41">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-41">41&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-42">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-42">42&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-43">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-43">43&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-44">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-44">44&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-45">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-45">45&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#pragma once
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;#34;DrawDebugHelpers.h&amp;#34;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Debug Shape Macros
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">#define DRAW_SPHERE(Location) if (GetWorld()) DrawDebugSphere(GetWorld(), Location, 25.f, 12, FColor::Red, true);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_SPHERE_COLOR(Location, Color) DrawDebugSphere(GetWorld(), Location, 8.f, 12, Color, false, 5.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_SPHERE_SINGLE_FRAME(Location) if (GetWorld()) DrawDebugSphere(GetWorld(), Location, 25.f, 12, FColor::Red, false, -1.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_LINE(StartLocation, EndLocation) if (GetWorld()) DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, true, -1.f, 0, 1.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_LINE_SINGLE_FRAME(StartLocation, EndLocation) if (GetWorld()) DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, -1.f, 0, 1.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_POINT(Location) if (GetWorld()) DrawDebugPoint(GetWorld(), Location, 15.f, FColor::Red, true);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_POINT_SINGLE_FRAME(Location) if (GetWorld()) DrawDebugPoint(GetWorld(), Location, 15.f, FColor::Red, false, -1.f);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_VECTOR(StartLocation, EndLocation) if (GetWorld()) \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">	{ \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">		DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, true, -1.f, 0, 1.f); \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">		DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, true); \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">	}
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define DRAW_VECTOR_SINGLE_FRAME(StartLocation, EndLocation) if (GetWorld()) \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">	{ \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">		DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, -1.f, 0, 1.f); \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">		DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, false, -1.f); \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">	}
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Log Macros
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">#define LOG_WARNING(Format, ...) UE_LOG(LogTemp, Warning, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_ERROR(Format, ...) UE_LOG(LogTemp, Error, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_DISPLAY(Format, ...) UE_LOG(LogTemp, Display, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_VERBOSE(Format, ...) UE_LOG(LogTemp, Verbose, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_FATAL(Format, ...) UE_LOG(LogTemp, Fatal, TEXT(Format), ##__VA_ARGS__)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Screen Debug Macros
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_WARNING(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Yellow, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_ERROR(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Red, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_DISPLAY(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::White, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_VERBOSE(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Green, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_FATAL(Format,Key,Duration, ...) if (GEngine) GEngine-&amp;gt;AddOnScreenDebugMessage(Key, Duration, FColor::Black, FString::Printf(TEXT(Format), ##__VA_ARGS__))
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define SCREEN_DEBUG_CLEAR() if (GEngine) GEngine-&amp;gt;ClearOnScreenDebugMessages()
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Log and Screen Debug Macros
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_WARNING(Format, ...) LOG_WARNING(Format, ##__VA_ARGS__); SCREEN_DEBUG_WARNING(Format,Key,Duration, ...)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_ERROR(Format, ...) LOG_ERROR(Format, ##__VA_ARGS__); SCREEN_DEBUG_ERROR(Format,Key,Duration, ...)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_DISPLAY(Format, ...) LOG_DISPLAY(Format, ##__VA_ARGS__); SCREEN_DEBUG_DISPLAY(Format,Key,Duration, ...) 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_VERBOSE(Format, ...) LOG_VERBOSE(Format, ##__VA_ARGS__); SCREEN_DEBUG_VERBOSE(Format,Key,Duration, ...) 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define LOG_SCREEN_DEBUG_FATAL(Format, ...) LOG_FATAL(Format, ##__VA_ARGS__); SCREEN_DEBUG_FATAL(Format,Key,Duration, ...) 
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>BSPWM Configuration</title><link>/blog/2022/05/02/bspwm-configuration/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/bspwm-configuration/</guid><description>&lt;p>A project I have been working on is to redesign my dotfiles to work on multiple machines running different distributions. Some solutions for BSPWM were required that have inspired this post. I will cover a few items, though nothing ground-breaking, that I hope will prove useful to someone.&lt;/p>
 &lt;h2 id="getting-started-with-bspwm">Getting Started with BSPWM&lt;/h2>
-&lt;p>Chances are you came here not looking to install BSPWM but extend your configuration. Though, if you are new to BSPWM here are basic instructions to install it on Arch Linux.&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4">4&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pacman -S bspwm sxhkd
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mkdir -p ~/.config/bspwm ~/.config/sxhkd
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cp /usr/share/doc/bspwm/examples/xshkdrc ~/.config/sxhkd/
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Now start BSPWM with something along the line of:&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#a31515">&amp;#34;exec bspwm&amp;#34;&lt;/span> &amp;gt; ~/.xinitrc &amp;amp;&amp;amp; startx
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="xrandr-and-monitor-arrangement">xrandr and Monitor Arrangement&lt;/h2>
-&lt;p>I was making a call to xrandr in my &lt;em>bspwmrc&lt;/em> file that needed to be made host dynamic. xrandr does not load a configuration file therefore I was able to create one for use within &lt;em>bspwmrc&lt;/em>. The configuration file is a bash script that simply contains the xrandr command I wish to use on each machine. It is not tracked by my dotfiles repository.&lt;/p>
-&lt;p>The following excerpt from my &lt;em>bspwmrc&lt;/em> file will source the &lt;em>xrandrrc&lt;/em> file if it exists.&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2">2&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3">3&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4">4&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5">5&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6">6&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-7">7&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-8">8&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000"># Call an xrandr config script to arrange monitors.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000"># Example contents:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000"># xrandr --output DP-0 --primary --right-of DP-3&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000"># -or-&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000"># xrandr --ouput eDP-1 --primary --left-of HDMI-1&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">if&lt;/span> [ -f &lt;span style="color:#a31515">&amp;#34;&lt;/span>$HOME&lt;span style="color:#a31515">/.config/xrandr/xrandrrc&amp;#34;&lt;/span> ]; &lt;span style="color:#00f">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> source $HOME/.config/xrandr/xrandrrc
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">fi&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="desktop-configuration">Desktop Configuration&lt;/h2>
-&lt;p>The next solution required was for desktop layout across varying number of monitors. I ended up using an external script to make my call to &lt;em>bspc monitor -d &amp;hellip;&lt;/em> based on few predefined layouts for up 3 monitors. The complete script is as follows:&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1"> 1&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2"> 2&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3"> 3&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4"> 4&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5"> 5&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-6"> 6&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-7"> 7&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-8"> 8&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-9"> 9&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-10">10&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-11">11&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-12">12&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-13">13&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-14">14&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-15">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-15">15&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-16">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-16">16&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-17">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-17">17&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-18">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-18">18&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-19">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-19">19&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-20">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-20">20&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-21">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-21">21&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-22">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-22">22&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-23">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-23">23&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#!/bin/bash
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000"># get monitor count&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>MONITOR_COUNT=&lt;span style="color:#00f">$(&lt;/span>xrandr --listmonitors | head -1 | cut -d &lt;span style="color:#a31515">&amp;#34; &amp;#34;&lt;/span> -f 2&lt;span style="color:#00f">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000"># determine desktop tag divisions&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">if&lt;/span> [ &lt;span style="color:#a31515">&amp;#34;&lt;/span>$MONITOR_COUNT&lt;span style="color:#a31515">&amp;#34;&lt;/span> -eq &lt;span style="color:#a31515">&amp;#34;1&amp;#34;&lt;/span> ]; &lt;span style="color:#00f">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> desks=(&lt;span style="color:#a31515">&amp;#34;1 2 3 4 5 6 7 8 9 0&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">elif&lt;/span> [ &lt;span style="color:#a31515">&amp;#34;&lt;/span>$MONITOR_COUNT&lt;span style="color:#a31515">&amp;#34;&lt;/span> -eq &lt;span style="color:#a31515">&amp;#34;2&amp;#34;&lt;/span> ]; &lt;span style="color:#00f">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> desks=(&lt;span style="color:#a31515">&amp;#34;6 7 8 9 0&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;1 2 3 4 5&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">elif&lt;/span> [ &lt;span style="color:#a31515">&amp;#34;&lt;/span>$MONITOR_COUNT&lt;span style="color:#a31515">&amp;#34;&lt;/span> -gt &lt;span style="color:#a31515">&amp;#34;2&amp;#34;&lt;/span> ]; &lt;span style="color:#00f">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> desks=(&lt;span style="color:#a31515">&amp;#34;1 2 3&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;4 5 6&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;7 8 9&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">fi&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">for&lt;/span> i in &lt;span style="color:#00f">$(&lt;/span>seq $MONITOR_COUNT&lt;span style="color:#00f">)&lt;/span>; &lt;span style="color:#00f">do&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008000"># get name of monitor port&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> port=&lt;span style="color:#00f">$(&lt;/span>xrandr --listmonitors | sed -n &lt;span style="color:#00f">$((&lt;/span>i+1&lt;span style="color:#00f">))&lt;/span>p | cut -d &lt;span style="color:#a31515">&amp;#34; &amp;#34;&lt;/span> -f 6&lt;span style="color:#00f">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008000"># don&amp;#39;t assign desktop tags to more than 3 monitors&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#00f">if&lt;/span> [ &lt;span style="color:#a31515">&amp;#34;&lt;/span>$MONITOR_COUNT&lt;span style="color:#a31515">&amp;#34;&lt;/span> -lt &lt;span style="color:#a31515">&amp;#34;3&amp;#34;&lt;/span> ]; &lt;span style="color:#00f">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> bspc monitor $port -d &lt;span style="color:#a31515">${&lt;/span>desks[&lt;span style="color:#00f">$((&lt;/span>i-1&lt;span style="color:#00f">))&lt;/span>]&lt;span style="color:#a31515">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#00f">fi&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">done&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>The script could be called from &lt;em>bspwmrc&lt;/em>; in example:&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1">1&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$HOME/.scripts/bspwm/dynamic-bspc-monitor
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="polybar">Polybar&lt;/h2>
-&lt;p>The final item I wanted to work on in my &lt;em>bspwmrc&lt;/em> file was launching Polybar. This solution requires version 3.6.0 or higher of Polybar. I use relative paths with &lt;em>include-file&lt;/em> in my configuration files which requires a recent version.&lt;/p>
-&lt;p>I split the polybar configuration file into included files for color, module, and global settings. They are included in bar specific configuration files for which there are 3: primary, secondary, and additional. Primary and secondary are for the first and second monitor and the additional bar configuration for any additional monitors.&lt;/p>
-&lt;p>An excerpt of a bar specific configuration file is listed below.&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1">1&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2">2&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3">3&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4">4&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-5">5&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-6">6&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>include-file = colors.ini
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>include-file = global.ini
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>include-file = modules.ini
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[bar/primary]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>monitor = &lt;span style="color:#a31515">${&lt;/span>env:MONITOR:DP-0&lt;span style="color:#a31515">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>The Polybar launch script I use is listed below.&lt;/p>
-&lt;div class="highlight">&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1"> 1&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2"> 2&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-3"> 3&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-4"> 4&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-5"> 5&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-6"> 6&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-7"> 7&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-8"> 8&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-9"> 9&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-10">10&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-11">11&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-12">12&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-13">13&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-14">14&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-15">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-15">15&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-16">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-16">16&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-17">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-17">17&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-18">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-18">18&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-19">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-19">19&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-20">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-20">20&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-21">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-21">21&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-22">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-22">22&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-23">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-23">23&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-24">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-24">24&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-25">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-25">25&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-26">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-26">26&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-27">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-27">27&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">#!/bin/bash
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HEAD_NAMES=&lt;span style="color:#00f">$(&lt;/span>polybar -M | cut -d &lt;span style="color:#a31515">&amp;#39;:&amp;#39;&lt;/span> -f 1&lt;span style="color:#00f">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>killall -q polybar
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008000"># wait for killall to take effect&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">while&lt;/span> pgrep -u $UID -x polybar &amp;gt;/dev/null; &lt;span style="color:#00f">do&lt;/span> sleep 1; &lt;span style="color:#00f">done&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>counter=1
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">for&lt;/span> head in $HEAD_NAMES; &lt;span style="color:#00f">do&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> export MONITOR=$head
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#00f">if&lt;/span> [ &lt;span style="color:#a31515">&amp;#34;&lt;/span>$counter&lt;span style="color:#a31515">&amp;#34;&lt;/span> -eq &lt;span style="color:#a31515">&amp;#34;1&amp;#34;&lt;/span> ]; &lt;span style="color:#00f">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> polybar primary --config=$HOME/.config/polybar/primary.ini &amp;amp;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#00f">fi&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#00f">if&lt;/span> [ &lt;span style="color:#a31515">&amp;#34;&lt;/span>$counter&lt;span style="color:#a31515">&amp;#34;&lt;/span> -eq &lt;span style="color:#a31515">&amp;#34;2&amp;#34;&lt;/span> ]; &lt;span style="color:#00f">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> polybar secondary --config=$HOME/.config/polybar/secondary.ini &amp;amp;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#00f">fi&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#00f">if&lt;/span> [ &lt;span style="color:#a31515">&amp;#34;&lt;/span>$counter&lt;span style="color:#a31515">&amp;#34;&lt;/span> -gt &lt;span style="color:#a31515">&amp;#34;2&amp;#34;&lt;/span> ]; &lt;span style="color:#00f">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> polybar additional --config=$HOME/.config/polybar/additional.ini &amp;amp;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#00f">fi&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ((counter++))
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00f">done&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="diving-deeper">Diving Deeper&lt;/h2>
-&lt;p>To get a better look at what I have done reference my dotfiles and scripts repositories.&lt;/p>
-&lt;p>&lt;a href="http://github.com/enqack/.dotfiles" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles&lt;/a>&lt;/p>
-&lt;p>&lt;a href="http://github.com/enqack/.scripts" target="_blank" rel="noopener">https://github.com/enqack/.scripts&lt;/a>&lt;/p>
-&lt;p>BSPWM&amp;rsquo;s configuration file is located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles/blob/master/stowed/bspwm/.config/bspwm/bspwmrc&lt;/a>&lt;/p>
-&lt;p>Polybar&amp;rsquo;s configuration files are located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar" target="_blank" rel="noopener">https://github.com/enqack/.dotfiles/tree/master/stowed/polybar/.config/polybar&lt;/a>&lt;/p>
-&lt;p>Polybar&amp;rsquo;s lauch script is located at:&lt;/p>
-&lt;p>&lt;a href="https://github.com/enqack/.scripts/blob/master/polybar/launch.sh" target="_blank" rel="noopener">https://github.com/enqack/.scripts/blob/master/polybar/launch.sh&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>Chances are you came here not looking to install BSPWM but extend your configuration. Though, if you are new to BSPWM here are basic instructions to install it on Arch Linux.&lt;/p></description></item><item><title>Search Results</title><link>/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/search/</guid><description/></item></channel></rss>

@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reference on Enqack</title><link>/tags/reference/</link><description>Recent content in Reference on Enqack</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 Aug 2025 15:43:03 -0400</lastBuildDate><atom:link href="/tags/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Deluge Shortcuts</title><link>/docs/synthstrom-deluge/shortcuts/</link><pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate><guid>/docs/synthstrom-deluge/shortcuts/</guid><description>&lt;h2 id="all-views">All Views&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Adjust brightness&lt;/td>
+ &lt;td>Shift + Learn + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Settings menu&lt;/td>
+ &lt;td>Shift + Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Undo&lt;/td>
+ &lt;td>Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Redo&lt;/td>
+ &lt;td>Shift + Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Tempo change&lt;/td>
+ &lt;td>turn Tempo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Tempo change +1 BPM&lt;/td>
+ &lt;td>press &amp;amp; turn Tempo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Swing adjustment&lt;/td>
+ &lt;td>Shift + turn Tempo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>System&lt;/td>
+ &lt;td>Metronome on/off&lt;/td>
+ &lt;td>Shift + Tap Tempo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Navigation&lt;/td>
+ &lt;td>Check current zoom level&lt;/td>
+ &lt;td>Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Navigation&lt;/td>
+ &lt;td>Change current zoom level&lt;/td>
+ &lt;td>press &amp;amp; turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Navigation&lt;/td>
+ &lt;td>Scroll left or right&lt;/td>
+ &lt;td>turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Navigation&lt;/td>
+ &lt;td>Scroll up or down&lt;/td>
+ &lt;td>turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Load song (saved tempo)&lt;/td>
+ &lt;td>Load + turn Select, then Load&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Load song (current tempo)&lt;/td>
+ &lt;td>Load + turn Select, then Tempo + Load&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Delete song&lt;/td>
+ &lt;td>Shift + Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>New song&lt;/td>
+ &lt;td>Shift + Load, then Load&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Delay load&lt;/td>
+ &lt;td>Load, then turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sampling&lt;/td>
+ &lt;td>Loop resample&lt;/td>
+ &lt;td>Record + Play, then Record + Play&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sampling&lt;/td>
+ &lt;td>Resample&lt;/td>
+ &lt;td>Shift + Record&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sequencer&lt;/td>
+ &lt;td>Nudge clock&lt;/td>
+ &lt;td>Horizontal + turn Tempo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="parameter-control---rotary-push-controls---toggle-options">Parameter Control - Rotary Push Controls - Toggle Options&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>LP, HP, EQ option&lt;/td>
+ &lt;td>[CUTOFF / RES] = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>LPF slope type&lt;/td>
+ &lt;td>[CUTOFF / RES] = on, lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Ping-Pong on/off&lt;/td>
+ &lt;td>[DELAY TIME / AMOUNT] = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Delay style digital / analog&lt;/td>
+ &lt;td>[DELAY TIME / AMOUNT] = on, lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Compressor sync 8th–32nd&lt;/td>
+ &lt;td>[SIDECHAIN / REVERB] = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Reverb room size preset&lt;/td>
+ &lt;td>[SIDECHAIN / REVERB] = on, lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Effect (song/kit): chorus, flanger, phaser&lt;/td>
+ &lt;td>[MOD RATE / DEPTH] &amp;amp; Affect Entire = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Effect (song/kit): depth, offset, feedback&lt;/td>
+ &lt;td>[MOD RATE / DEPTH] &amp;amp; Affect Entire = on, lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Stutter&lt;/td>
+ &lt;td>[STUTTER / CUSTOM 1] = on, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>FX&lt;/td>
+ &lt;td>Stutter – ramp speed&lt;/td>
+ &lt;td>[STUTTER / CUSTOM 1] = on, press &amp;amp; turn upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="song-view">Song View&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Switch song views – default row&lt;/td>
+ &lt;td>Hold Song + turn Select (change row or grid)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Clip parameter adjustment&lt;/td>
+ &lt;td>Hold Pad on grid + turn upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Change section assignment / Colour&lt;/td>
+ &lt;td>Shift + Section&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Change pad row colour in row view&lt;/td>
+ &lt;td>Hold Pad for row + Shift + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Section repeats / share status&lt;/td>
+ &lt;td>Press Section + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Move row&lt;/td>
+ &lt;td>Hold Pad of row to move + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Clone clip&lt;/td>
+ &lt;td>Hold Pad of master clip + press Pad of another row&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Solo section&lt;/td>
+ &lt;td>Tap Section&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Solo clip (arm)&lt;/td>
+ &lt;td>Horizontal + press clip’s Launch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Solo clip (Immediate)&lt;/td>
+ &lt;td>Shift + press clip’s Launch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Un-solo&lt;/td>
+ &lt;td>Press clip’s Mute&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Instant mute / launch&lt;/td>
+ &lt;td>Shift + Mute&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Delete clip&lt;/td>
+ &lt;td>Hold Pad of clip + press Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Drag clip instance to arranger&lt;/td>
+ &lt;td>Hold Pad + press Song + turn Horizontal, release pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Record to arranger&lt;/td>
+ &lt;td>Hold Record + press Song&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Master compressor mode&lt;/td>
+ &lt;td>Affect Entire = ON, [SIDECHAIN] ON, upper Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Song&lt;/td>
+ &lt;td>Grid View – Pad Modes&lt;/td>
+ &lt;td>Press Audition (Green = Set Launch mode / Blue = edit)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Create audio clip&lt;/td>
+ &lt;td>Hold Pad of empty clip + Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Set input source for audio clip&lt;/td>
+ &lt;td>Hold Learn + press Pad of clip&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Loop record&lt;/td>
+ &lt;td>In record mode, press Play with armed, empty audio clips present&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Close loop recording&lt;/td>
+ &lt;td>Press Launch of clip&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Close loop + immediate solo&lt;/td>
+ &lt;td>Horizontal + press Launch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Loop record during playback&lt;/td>
+ &lt;td>In record mode, unmute armed, empty audio clip&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Overdub&lt;/td>
+ &lt;td>Hold Record + press Pad of clip row underneath&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Continuous overdub layering&lt;/td>
+ &lt;td>Hold Record + press Audition of row underneath&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>‘Loop pedal’ record&lt;/td>
+ &lt;td>Record loop while no other clip is playing and metronome is off&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Grab tempo from audio clip&lt;/td>
+ &lt;td>Tempo + press Pad for clip row (Song) or any pad (Clip View)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Select MIDI switch LOOP target&lt;/td>
+ &lt;td>Enter audio clip or hold clip row in song view + press switch&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Looping&lt;/td>
+ &lt;td>Auto extending instrument clip record&lt;/td>
+ &lt;td>In record mode, unmute armed empty clip during playback&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="arranger-view">Arranger View&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Place clip instance&lt;/td>
+ &lt;td>Press Pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Delete clip instance&lt;/td>
+ &lt;td>Pad (leftmost start pad of an instance)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Clip instance length&lt;/td>
+ &lt;td>Hold Pad start + press Pad end on same row&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Move clip instance horizontally&lt;/td>
+ &lt;td>Hold Pad + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Change instance clip&lt;/td>
+ &lt;td>Hold Pad + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Make clip instance unique&lt;/td>
+ &lt;td>Shift + Pad (creates a ‘white’ clip)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Adjust clip instance parameters&lt;/td>
+ &lt;td>Hold Pad + turn upper/lower Gold for selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Enter clip view for a clip&lt;/td>
+ &lt;td>Press any clip instance pad other than the first/leftmost&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Drag ‘unique’ clip instance to song view&lt;/td>
+ &lt;td>Hold Pad + Song + turn Vertical, then release pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Row&lt;/td>
+ &lt;td>Quantize or Humanize row&lt;/td>
+ &lt;td>Hold Audition + turn Tempo (Right = Quantize / Left = Humanize)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Row&lt;/td>
+ &lt;td>Move track&lt;/td>
+ &lt;td>Hold Audition + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Mute / unmute track&lt;/td>
+ &lt;td>Mute for row&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Solo track&lt;/td>
+ &lt;td>Horizontal + Mute for instrument&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Change or Add new instrument&lt;/td>
+ &lt;td>Hold Audition + turn Select or press Synth/Kit/MIDI/CV&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Delete track row&lt;/td>
+ &lt;td>Hold Audition + Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Instrument&lt;/td>
+ &lt;td>Audition instrument&lt;/td>
+ &lt;td>Audition (Song’s root note or snare drum in kit mode)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Arrangement&lt;/td>
+ &lt;td>Clear arrangement&lt;/td>
+ &lt;td>Horizontal + Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Create new audio track&lt;/td>
+ &lt;td>Empty lane Audition + Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Set input source for audio track&lt;/td>
+ &lt;td>Learn + Audition of audio track&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Record audio from current position&lt;/td>
+ &lt;td>Press Play while in Record, with armed audio present&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="clip-view">Clip View&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Change clip colour&lt;/td>
+ &lt;td>Shift + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Change clip preset, MIDI Ch, CV out&lt;/td>
+ &lt;td>turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Adjust clip length&lt;/td>
+ &lt;td>Shift + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Duplicate / multiply and append content&lt;/td>
+ &lt;td>Shift + Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Horizontal clip shift / nudge L–R&lt;/td>
+ &lt;td>Vertical + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Playback from current screen&lt;/td>
+ &lt;td>Horizontal + Play&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Clear clip&lt;/td>
+ &lt;td>Horizontal + Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Clip&lt;/td>
+ &lt;td>Change Clip Direction&lt;/td>
+ &lt;td>Shift + Direction (pad to the right of OSC SYNC on FM MOD 1)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note length&lt;/td>
+ &lt;td>Hold Pad start + press Pad end on same row&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note length – long&lt;/td>
+ &lt;td>Press Pad start, navigate with Horizontal; Horizontal + press Pad end&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note velocity&lt;/td>
+ &lt;td>Hold Pad on the grid + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note repeat&lt;/td>
+ &lt;td>Hold Pad on the grid + hold and turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Note play probability %&lt;/td>
+ &lt;td>Hold Pad of note + turn Select (anticlockwise/left)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Set dependence on first note&lt;/td>
+ &lt;td>Hold All Pads together + turn Select (anticlockwise/left)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Iteration dependence for a note&lt;/td>
+ &lt;td>Hold Pad of note + turn Select (clockwise/right)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Copy notes&lt;/td>
+ &lt;td>Hold Learn + Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Paste notes&lt;/td>
+ &lt;td>Hold Learn + Shift + Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Nudge individual notes horizontally&lt;/td>
+ &lt;td>Hold Pad + press &amp;amp; turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Automate a parameter (while recording)&lt;/td>
+ &lt;td>Turn upper/lower Gold of selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Per note parameter change&lt;/td>
+ &lt;td>Hold Pad of note start + turn upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Delete parameter automation&lt;/td>
+ &lt;td>Shift + upper/lower Gold of selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Copy automation&lt;/td>
+ &lt;td>Hold Learn + upper/lower Gold of selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Paste automation&lt;/td>
+ &lt;td>Hold Learn + Shift + upper/lower Gold of selected parameter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sample&lt;/td>
+ &lt;td>Load sample&lt;/td>
+ &lt;td>Audition + Load&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sound&lt;/td>
+ &lt;td>Sound Editor&lt;/td>
+ &lt;td>Shift + Pad of shortcut as labelled or Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Preset&lt;/td>
+ &lt;td>Preset load interface&lt;/td>
+ &lt;td>Load + Synth or Kit or MIDI&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Audio clip trim start&lt;/td>
+ &lt;td>Press Pad of leftmost column at start of waveform&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio&lt;/td>
+ &lt;td>Audio clip trim end&lt;/td>
+ &lt;td>Press Pad of rightmost column at end of waveform&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Euclidean Seq&lt;/td>
+ &lt;td>Number of events on the row&lt;/td>
+ &lt;td>Hold Audition + press &amp;amp; turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Euclidean Seq&lt;/td>
+ &lt;td>Row length&lt;/td>
+ &lt;td>Hold Audition + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Euclidean Seq&lt;/td>
+ &lt;td>Rotate / Shift events or notes&lt;/td>
+ &lt;td>Hold Audition + press &amp;amp; turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="sound-editor">Sound Editor&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Sound Editor&lt;/td>
+ &lt;td>Move cursor&lt;/td>
+ &lt;td>turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Controls&lt;/td>
+ &lt;td>Parameter knob assignment&lt;/td>
+ &lt;td>Hold Learn + turn upper/lower Gold (parameter control)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Controls&lt;/td>
+ &lt;td>MIDI knob assignment&lt;/td>
+ &lt;td>Hold Learn + turn (MIDI) Control of external device&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Controls&lt;/td>
+ &lt;td>Unassign MIDI control knob&lt;/td>
+ &lt;td>Shift + Learn&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Preset&lt;/td>
+ &lt;td>Save preset&lt;/td>
+ &lt;td>Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Parameter&lt;/td>
+ &lt;td>Apply a change to entire kit&lt;/td>
+ &lt;td>Hold Affect Entire while changing parameter&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="synth-keyboard-midi-cv-clips">Synth, Keyboard, MIDI, CV Clips&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Synth&lt;/td>
+ &lt;td>Synth resample&lt;/td>
+ &lt;td>Record + Audition or grid Pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Synth&lt;/td>
+ &lt;td>Load blank synth&lt;/td>
+ &lt;td>Shift + Synth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Synth&lt;/td>
+ &lt;td>Load synth preset to a kit row&lt;/td>
+ &lt;td>Audition + Synth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Synth&lt;/td>
+ &lt;td>Save synth preset&lt;/td>
+ &lt;td>Save + Synth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Cycle through default scales&lt;/td>
+ &lt;td>Shift + Scale&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Change root note&lt;/td>
+ &lt;td>Scale + Audition row of new note&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Chromatic scale&lt;/td>
+ &lt;td>Scale to turn it OFF (LED unlit)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Create scale&lt;/td>
+ &lt;td>In chromatic mode (scale OFF); select pad notes, then press Scale&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Scales&lt;/td>
+ &lt;td>Alter current scale&lt;/td>
+ &lt;td>Hold Audition + press &amp;amp; turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Transpose&lt;/td>
+ &lt;td>Transpose current clip an octave&lt;/td>
+ &lt;td>press &amp;amp; turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Transpose&lt;/td>
+ &lt;td>Transpose current clip a semitone&lt;/td>
+ &lt;td>(Chromatic – scale OFF) Shift + press &amp;amp; turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Transpose&lt;/td>
+ &lt;td>Transpose ALL clips a semitone&lt;/td>
+ &lt;td>(Scale ON) Shift + press &amp;amp; turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Note&lt;/td>
+ &lt;td>Create full screen ‘drone’ note&lt;/td>
+ &lt;td>Hold Pad first column + press Pad last column of grid&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>MIDI&lt;/td>
+ &lt;td>Assign MIDI CC to parameter knob (MIDI Track)&lt;/td>
+ &lt;td>upper/lower Gold + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kit-clips">Kit Clips&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Change colour of specific row&lt;/td>
+ &lt;td>Shift + Audition + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Save kit preset&lt;/td>
+ &lt;td>Save + Kit&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Randomize Kit Row&lt;/td>
+ &lt;td>Audition for row to edit + Random&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Move row&lt;/td>
+ &lt;td>Hold Audition for row + Mute + turn Vertical&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Delete row&lt;/td>
+ &lt;td>Pad for row to delete + Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Kit&lt;/td>
+ &lt;td>Delete all unused rows&lt;/td>
+ &lt;td>Kit + Shift + Save&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sample&lt;/td>
+ &lt;td>Slice a sample&lt;/td>
+ &lt;td>Shift + Kit, turn Select to choose sample; Shift + Select to set slices&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sample&lt;/td>
+ &lt;td>Lazy Chop Option&lt;/td>
+ &lt;td>In slicer &amp;amp; number selection, Horizontal to open manual lazy slicer pads&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sample&lt;/td>
+ &lt;td>Record sample from input&lt;/td>
+ &lt;td>Audition + Record to start; Record again to end&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>CV&lt;/td>
+ &lt;td>Set kit row output to gate&lt;/td>
+ &lt;td>Audition + press CV&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>CV&lt;/td>
+ &lt;td>Set kit row CV gate&lt;/td>
+ &lt;td>Audition + turn lower Gold (CV row required)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>MIDI&lt;/td>
+ &lt;td>Set kit row output to MIDI&lt;/td>
+ &lt;td>Audition + press MIDI&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>MIDI&lt;/td>
+ &lt;td>Set kit row MIDI channel&lt;/td>
+ &lt;td>Audition + turn lower Gold (MIDI row required)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>MIDI&lt;/td>
+ &lt;td>Set kit row MIDI note&lt;/td>
+ &lt;td>Audition + turn upper Gold (MIDI row required)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="keyboard">Keyboard&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Select Keyboard view&lt;/td>
+ &lt;td>Keyboard&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Isomorphic, In-Key or Norns&lt;/td>
+ &lt;td>Keyboard + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Note offset&lt;/td>
+ &lt;td>Shift + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Change Scale&lt;/td>
+ &lt;td>Scale + Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Keyboard&lt;/td>
+ &lt;td>Change Root Note&lt;/td>
+ &lt;td>Scale + turn Select&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="automation--automation-editor--clip-view">Automation &amp;amp; Automation Editor – Clip View&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Context&lt;/th>
+ &lt;th>Action&lt;/th>
+ &lt;th>Shortcut&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Select Automation Mode&lt;/td>
+ &lt;td>Press Clip twice (flashes blue)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Select Automation Mode&lt;/td>
+ &lt;td>Hold Shift + Clip or Audition + Clip&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Select Automation Parameter&lt;/td>
+ &lt;td>Shift + Pad or turn Select&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Select Affected Kit Rows&lt;/td>
+ &lt;td>Affect Entire: ON for all, OFF for selected rows&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Clear Automation&lt;/td>
+ &lt;td>Horizontal + Back&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Record Automation&lt;/td>
+ &lt;td>Record, Play, then turn upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Copy Automation&lt;/td>
+ &lt;td>Learn + upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Paste Automation&lt;/td>
+ &lt;td>Shift + Learn + upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Delete Automation&lt;/td>
+ &lt;td>Shift + upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Automation&lt;/td>
+ &lt;td>Interpolation On/Off&lt;/td>
+ &lt;td>Shift + Interpolation (first column of grid)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Check Parameter&lt;/td>
+ &lt;td>Press flashing Pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Set Parameter Column Value&lt;/td>
+ &lt;td>Press Pad&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Change Parameter Column Value&lt;/td>
+ &lt;td>Hold Pad + turn upper/lower Gold&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Set long automation shape&lt;/td>
+ &lt;td>Hold Pad (start) + Press Pad (end)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Pad selection mode&lt;/td>
+ &lt;td>Shift + press Waveform shortcut pad (first column)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Pad selection mode edit&lt;/td>
+ &lt;td>turn upper/lower Gold in pad selection mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Duplicate Automation&lt;/td>
+ &lt;td>Shift + Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Shift Automation&lt;/td>
+ &lt;td>Vertical + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Reduce clip length&lt;/td>
+ &lt;td>Shift + turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>View zoom level&lt;/td>
+ &lt;td>Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Change zoom level&lt;/td>
+ &lt;td>press &amp;amp; turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auto Editor&lt;/td>
+ &lt;td>Scroll grid&lt;/td>
+ &lt;td>turn Horizontal&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>Source: &lt;a href="https://delugecommunity.com/reference/shortcuts/" target="_blank" rel="noopener">Deluge Community — Shortcuts&lt;/a> (c1.0.0).&lt;/p></description></item></channel></rss>
