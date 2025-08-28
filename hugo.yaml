@@ -1,12 +1,76 @@
-# Docsy config
-#
-# cSpell:ignore docsy fortawesome fontawesome webfonts
+baseURL: "https://enqack.net/"
+canonifyURLs: true
+title: "Enqack.net"
 
-params:
-  time_format_blog: Monday, January 02, 2006
-  time_format_default: January 2, 2006
-  rss_sections: [blog]
+# Language settings
+contentDir: "content/en"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
 
+# Useful when translating.
+enableMissingTranslationPlaceholders: true
+
+enableRobotsTXT: true
+
+# Will give values to .Lastmod etc.
+enableGitInfo: true
+
+# You can add your own taxonomies
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+# Highlighting (legacy pygments flags kept as-is)
+pygmentsCodeFences: true
+pygmentsUseClasses: false
+pygmentsUseClassic: false
+pygmentsStyle: "tango"
+
+# Configure how URLs look like per section.
+permalinks:
+  blog: "/:section/:year/:month/:day/:slug/"
+
+# Image processing configuration.
+imaging:
+  resampleFilter: "CatmullRom"
+  quality: 75
+  anchor: "smart"
+
+services:
+  googleAnalytics:
+    # id: "UA-00000000-0"
+
+# Language configuration
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    params:
+      title: "Enqack"
+      description: "Enqack website"
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+  highlight:
+    # style: "onedark"
+    # guessSyntax: "true"
+    anchorLineNos: true
+    codeFences: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClass: false
+
+# Output kinds for sections
+outputs:
+  # home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "print", "RSS"]
+
+# Additional output format from Docsy defaults
 outputFormats:
   PRINT:
     baseName: index
@@ -15,10 +79,69 @@ outputFormats:
     path: _print
     permalinkable: false
 
+# ---- Site Params (merged) ----
+params:
+  # Your preferred formats (override Docsy defaults)
+  time_format_default: "2025-12-31"
+  time_format_blog: "2025-12-31"
+
+  # From Docsy defaults (added)
+  rss_sections: [blog]
+
+  copyright: "Enqack"
+  # privacy_policy: "https://policies.google.com/privacy"
+
+  # versioning/banner
+  version_menu: "Releases"
+  archived_version: false
+  version: "0.0"
+  url_latest_version: "https://enqack.net"
+
+  # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+  github_repo: "https://github.com/enqack/enqack-website"
+  # github_subdir: ""
+  github_branch: "main"
+
+  # Search
+  gcs_engine_id: "d012176317762718244698:0ywer4i0u-4"
+  offlineSearch: false
+  offlineSearchSummaryLength: 80
+  offlineSearchMaxResults: 10
+  prism_syntax_highlighting: false
+
+  # Taxonomy UI bits
+  taxonomy:
+    taxonomyCloud: ["tags", "categories"]
+    taxonomyCloudTitle: ["Tag Cloud", "Categories"]
+    taxonomyPageHeader: ["tags", "categories"]
+
+  # UI
+  ui:
+    breadcrumb_disable: false
+    footer_about_enable: false
+    navbar_logo: false
+    navbar_translucent_over_cover_disable: true
+    sidebar_menu_compact: false
+    sidebar_search_disable: false
+    navbarSearchDisable: true
+    showLightDarkModeMenu: true
+
+    feedback:
+      enable: false
+      yes: 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+      no: 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+
+    readingtime:
+      enable: true
+
+# ---- Modules (merged) ----
 module:
+  # Prefer newer minimum from Docsy defaults
   hugoVersion:
     extended: true
-    min: 0.146.0
+    min: "0.146.0"
+
+  # Docsy default mounts (added)
   mounts:
     - source: assets
       target: assets
@@ -34,19 +157,23 @@ module:
       target: static
     - source: node_modules/@fortawesome/fontawesome-free/webfonts
       target: static/webfonts
-    # Mounts for projects using Docsy as an NPM package. The source path prefix
-    # "../.." moves out of themes/docsy so that Docsy can find its dependencies.
+    # NPM-install Docsy usage
     - source: ../../node_modules/bootstrap
       target: assets/vendor/bootstrap
     - source: ../../node_modules/@fortawesome/fontawesome-free
       target: assets/vendor/Font-Awesome
     - source: ../../node_modules/@fortawesome/fontawesome-free/webfonts
       target: static/webfonts
-    # Mounts for module installations,
-    # needed to work around a known bug in Go’s module management.
+    # Workaround for Go modules bug
     - source: assets/_vendor/bootstrap/scss
       target: assets/vendor/bootstrap/scss/vendor
+
+  # Imports: keep your Docsy + deps, add Bootstrap/FA with their mounts
   imports:
+    - path: "github.com/google/docsy"
+      disable: false
+    - path: "github.com/google/docsy/dependencies"
+      disable: false
     - path: github.com/twbs/bootstrap
       disable: false
       mounts:

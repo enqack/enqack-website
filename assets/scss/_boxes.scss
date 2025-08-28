@@ -1,5 +1,10 @@
 // Boxes on the home page and similar: .td-box
 
+
+$color-mode-type: data;
+
+@import "mixins/_color_mode.scss";
+
 // box-variant creates the main style for a colored section
 @mixin box-variant($parent, $color-name, $color-value) {
   $text-color: color-contrast($color-value);

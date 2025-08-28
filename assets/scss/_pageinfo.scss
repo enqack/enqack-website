@@ -16,7 +16,7 @@
 
 .td-page-meta {
   &__lastmod {
-    @extend .text-body-secondary;
+    @extend .text-body-secondary !optional;
     @extend .border-top;
     margin-top: map-get($spacers, 5) !important;
     padding-top: map-get($spacers, 3) !important;
