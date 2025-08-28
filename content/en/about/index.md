@@ -17,6 +17,3 @@ Enqack.net is a personal site mostly used for my own reference.
 
 {{% /blocks/lead %}}
 
-{{% blocks/section %}}
-
-{{% /blocks/section %}}
