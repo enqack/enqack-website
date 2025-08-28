@@ -2,7 +2,7 @@
 title: "Deluge Shortcuts"
 date: 2025-08-27
 tags: ["Reference"]
-categories: ["Synthstrom Audiable Deluge"]
+categories: ["Synthstrom Audible Deluge"]
 ---
 
 ## All Views
