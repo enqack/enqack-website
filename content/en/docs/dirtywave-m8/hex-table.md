@@ -5,8 +5,6 @@ tags: ["Reference"]
 categories: ["Dirtywave M8"]
 ---
 
-# Hex Table
-
 | Decimal | Hex | Relative |
 | --- | --- | --- |
 | 0 | 0 | - |

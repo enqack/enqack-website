@@ -5,8 +5,6 @@ tags: ["Reference"]
 categories: ["Dirtywave M8"]
 ---
 
-# Filter Frequencies
-
 | Freq, Hz | Hex |
 | -------- | --- | 
 | 20 | 0D |

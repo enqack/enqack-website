@@ -5,8 +5,6 @@ tags: ["Reference"]
 categories: ["Dirtywave M8"]
 ---
 
-# Grooves
-
 ## Swing 1
 
 | Row | Value |
