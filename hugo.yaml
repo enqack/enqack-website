@@ -68,7 +68,7 @@ markup:
 
 # Output kinds for sections
 outputs:
-  home: ["HTML", "RSS", "JSON"]
+  home: ["HTML", "RSS"]
   section: ["HTML", "print", "RSS"]
 
 # Additional output format from Docsy defaults
@@ -104,7 +104,7 @@ params:
   github_branch: "main"
 
   # Search
-  gcs_engine_id: "d012176317762718244698:0ywer4i0u-4"
+  gcs_engine_id: "012176317762718244698:0ywer4i0u-4"
   offlineSearch: false
   offlineSearchSummaryLength: 80
   offlineSearchMaxResults: 10
