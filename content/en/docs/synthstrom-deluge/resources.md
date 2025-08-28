@@ -2,14 +2,14 @@
 title: "Resources"
 date: 2025-08-27
 tags: ["list", "resources"]
-categories: ["Synthstrom Audiable Deluge"]
+categories: ["Synthstrom Audible Deluge"]
 ---
 
-A list of resources related to the Synthstrom Audiable Deluge:
+A list of resources related to the Synthstrom Audible Deluge:
 
 ## General
 
-[Synthstrom Audiable](https://synthstrom.com/)
+[Synthstrom Audible](https://synthstrom.com/)
 
 [Deluge Community](https://delugecommunity.com/)
 
