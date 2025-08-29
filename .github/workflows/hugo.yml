@@ -46,19 +46,6 @@ jobs:
           mkdir -p ~/.ssh
           ssh-keyscan -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_HOST }}" >> ~/.ssh/known_hosts
 
-      - name: SSH connectivity debug
-        run: |
-          set -x
-          mkdir -p ~/.ssh
-          ssh-keyscan -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
-          ssh -vvv \
-            -o StrictHostKeyChecking=yes \
-            -o IdentitiesOnly=yes \
-            -o PreferredAuthentications=publickey \
-            -p "${{ secrets.SERVER_PORT }}" \
-            "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
-            'echo "AUTH OK: $(whoami) on $(hostname)"; exit'
-
       - name: Atomic deploy (rsync + symlink)
         run: |
           set -euo pipefail
