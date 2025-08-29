@@ -54,8 +54,6 @@ jobs:
       - name: SSH connectivity debug
         run: |
           set -x
-          mkdir -p ~/.ssh
-          ssh-keyscan -T 10 -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_HOST }}" >> ~/.ssh/known_hosts
           ssh -vvv \
             -o StrictHostKeyChecking=yes \
             -o IdentitiesOnly=yes \
