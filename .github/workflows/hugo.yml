@@ -46,9 +46,16 @@ jobs:
           mkdir -p ~/.ssh
           ssh-keyscan -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_HOST }}" >> ~/.ssh/known_hosts
 
+      - name: Show loaded SSH keys (debug)
+        run: |
+          echo "SSH_AUTH_SOCK=$SSH_AUTH_SOCK"
+          ssh-add -l -E sha256 || true
+
       - name: SSH connectivity debug
         run: |
           set -x
+          mkdir -p ~/.ssh
+          ssh-keyscan -T 10 -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_HOST }}" >> ~/.ssh/known_hosts
           ssh -vvv \
             -o StrictHostKeyChecking=yes \
             -o IdentitiesOnly=yes \
