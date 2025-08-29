@@ -1,8 +1,12 @@
 name: Deploy Hugo via rsync over SSH
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -33,35 +37,29 @@ jobs:
         run: |
           npm ci || (echo "npm ci failed, retrying..." && sleep 5 && npm ci)
 
+      - name: Cache Hugo modules
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/hugo_cache   # Hugo modules
+            resources/_gen        # Processed assets
+          key: hugo-${{ runner.os }}-${{ hashFiles('**/go.mod', '**/go.sum', 'package-lock.json') }}
+
       - name: Build Hugo
-        run: hugo --gc --minify
+        run: |
+          HUGO_ENV=production hugo --gc --minify --panicOnWarning
+          test -s public/index.html
 
       - name: Start ssh-agent and add key
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Add server to known_hosts
+      - name: Add server to known_hosts (pinned)
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_HOST }}" >> ~/.ssh/known_hosts
-
-      - name: Show loaded SSH keys (debug)
-        run: |
-          echo "SSH_AUTH_SOCK=$SSH_AUTH_SOCK"
-          ssh-add -l -E sha256 || true
-
-      - name: SSH connectivity debug
-        run: |
-          set -x
-          ssh -vvv \
-            -o StrictHostKeyChecking=yes \
-            -o PreferredAuthentications=publickey \
-            -o HostKeyAlgorithms=ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256 \
-            -p "${{ secrets.SERVER_PORT }}" \
-            "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
-            'echo "AUTH OK: $(whoami) on $(hostname)"'
-            
+          printf '%s\n' "${{ secrets.SERVER_HOST_KEY }}" >> ~/.ssh/known_hosts
+                  
       - name: Atomic deploy (rsync + symlink)
         run: |
           set -euo pipefail
@@ -72,9 +70,9 @@ jobs:
           ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
             "mkdir -p '$RELEASES'"
 
-          rsync -az --delete -e "ssh -p ${{ secrets.SERVER_PORT }} -o PreferredAuthentications=publickey" \
-            public/ \
-            "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:$TARGET"
+          rsync -az --delete --chmod=F644,D755 \
+            -e "ssh -p ${{ secrets.SERVER_PORT }} -o PreferredAuthentications=publickey" \
+            public/ "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:$TARGET"
 
           ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
             "ln -sfn '$TARGET' '${{ secrets.DEPLOY_PATH }}/current' && \
