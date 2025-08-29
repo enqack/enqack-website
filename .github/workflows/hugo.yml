@@ -1,0 +1,66 @@
+name: Deploy Hugo via rsync over SSH
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.148.2'
+          extended: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Build Hugo
+        run: hugo --gc --minify
+
+      # Load your SSH key
+      - name: Start ssh-agent and add key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      # Trust the host key (recommended)
+      - name: Add server to known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Atomic deploy (rsync + symlink)
+        run: |
+          set -euo pipefail
+          TS="$(date +%Y%m%d%H%M%S)"
+          RELEASES="${{ secrets.DEPLOY_PATH }}/releases"
+          TARGET="$RELEASES/$TS"
+
+          ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
+            "mkdir -p '$RELEASES'"
+
+          rsync -az --delete -e "ssh -p ${{ secrets.SERVER_PORT }}" \
+            public/ \
+            "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:$TARGET"
+
+          ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
+            "ln -sfn '$TARGET' '${{ secrets.DEPLOY_PATH }}/current' && \
+             find '$RELEASES' -maxdepth 1 -mindepth 1 -type d | sort -r | tail -n +6 | xargs -r rm -rf"
