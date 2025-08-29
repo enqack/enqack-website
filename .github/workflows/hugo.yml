@@ -1,3 +1,9 @@
+name: Deploy Hugo via rsync over SSH
+
+on:
+  push:
+    branches: [main]
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -16,17 +22,12 @@ jobs:
           hugo-version: '0.148.2'
           extended: true
 
-      - name: Debug show lockfiles
-        run: |
-          echo "pwd: $(pwd)"
-          find . -maxdepth 3 -name package-lock.json -print
-
       - name: Setup Node (LTS) with npm cache
         uses: actions/setup-node@v4
         with:
-          node-version: '18.x'              # or 'lts/*'
+          node-version: 'lts/*'           # or '18.x'
           cache: 'npm'
-          cache-dependency-path: 'package-lock.json'  # <-- adjust if in subdir
+          cache-dependency-path: 'package-lock.json'
 
       - name: Install Node.js dependencies
         run: |
