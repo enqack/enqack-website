@@ -40,6 +40,8 @@ imaging:
 services:
   googleAnalytics:
     # id: "UA-00000000-0"
+  disqus:
+    # shortname: enqack
 
 # Language configuration
 languages:
