@@ -56,7 +56,6 @@ jobs:
           set -x
           ssh -vvv \
             -o StrictHostKeyChecking=yes \
-            -o IdentitiesOnly=yes \
             -o PreferredAuthentications=publickey \
             -o HostKeyAlgorithms=ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256 \
             -p "${{ secrets.SERVER_PORT }}" \
@@ -73,7 +72,7 @@ jobs:
           ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
             "mkdir -p '$RELEASES'"
 
-          rsync -az --delete -e "ssh -p ${{ secrets.SERVER_PORT }}" \
+          rsync -az --delete -e "ssh -p ${{ secrets.SERVER_PORT }} -o PreferredAuthentications=publickey" \
             public/ \
             "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:$TARGET"
 
