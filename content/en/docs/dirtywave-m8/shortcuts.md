@@ -3,552 +3,262 @@ title: "Dirtywave M8 Shortcuts"
 date: 2025-08-28
 tags: ["Reference"]
 categories: ["Dirtywave M8"]
+
 ---
-
 ## Global Key Shortcuts
-
-- **[DIRECTION]** Move the cursor on the screen.
-
-- **[SHIFT]**+**[DIRECTION]** Navigate between Views
-
-- **[EDIT]** Start editing a value; also functions as a “YES” or “ENTER”
-
-- **[OPTION]** Varies depending on context; also functions as a “NO” or “EXIT”
-
-- **[EDIT]**+**[OPTION]** Sets a highlighted parameter to the default value, or acts as a “cut” operation on song, chain, phrase, and table “grid” views.
-
-- **[SHIFT]** by itself has no function.
-
-- **[PLAY]** Starts/stops the song from the current cursor position on the song view, or plays the current Chain, Phrase, or Instrument when in those views.
-
-- **[SHIFT]**+**[PLAY]** Plays all tracks from the current song cursor position regardless of current view (song, chain, phrase, etc).
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Global | Move the cursor on the screen | **[DIRECTION]** | — |
+| Global | Navigate between Views | **[SHIFT]**+**[DIRECTION]** | — |
+| Global | Start editing / confirm | **[EDIT]** | Also acts as “YES/ENTER”. |
+| Global | Context option / exit | **[OPTION]** | Varies by context; also “NO/EXIT”. |
+| Global | Set default / cut | **[EDIT]**+**[OPTION]** | Sets highlighted parameter to default, or “cut” on song/chain/phrase/table grids. |
+| Global | No function | **[SHIFT]** | — |
+| Global | Play/stop (contextual) | **[PLAY]** | Song view: start/stop from current cursor. Other views: plays current Chain/Phrase/Instrument. |
+| Global | Play all tracks (from song cursor) | **[SHIFT]**+**[PLAY]** | Works regardless of current view. |
 
 ## Common Editing Shortcuts
-
-- **[EDIT]** On an empty cell (“--”): inserts a new value with a default value of the last edited or deleted value.
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value in large steps. On a command column: shows the Effect Help/Selection view.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value by small steps.
-
-- **[SHIFT]**+**[OPTION]** On any view with a grid (song, chain, phrase, table, etc): enter selection mode.
-
-- **[OPTION]** In selection mode: copies the selection and exits selection mode.
-
-- **[SHIFT]**+**[EDIT]** On any view with a grid: paste the copied contents from selection mode.
-
-- **[EDIT]**+**[OPTION]** Deletes/cuts the selected value. On selection mode: cuts the selection into the copy buffer
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Common Editing | Insert last value | **[EDIT]** | On empty cell (“--”): inserts last edited or deleted value. |
+| Common Editing | Edit (large steps) / Effect help | **[EDIT]**+**[UP or DOWN]** | On command column: shows Effect Help/Selection. |
+| Common Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Common Editing | Enter selection mode (grid views) | **[SHIFT]**+**[OPTION]** | Song, chain, phrase, table, etc. |
+| Common Editing | Copy selection & exit selection | **[OPTION]** | In selection mode. |
+| Common Editing | Paste from selection buffer | **[SHIFT]**+**[EDIT]** | On any grid view. |
+| Common Editing | Delete/cut value | **[EDIT]**+**[OPTION]** | In selection mode: cuts the selection to copy buffer. |
 
 ## File Browser
-
-- **[LEFT]** will navigate to the top of the list.
-
-- **[RIGHT]** will navigate to the bottom of the list.
-
-- **[OPTION]**+**[UP or DOWN]** will skip over 8 entries in the list.
-
-- **[PLAY]** will preview a sample or instrument when browsing for them.
-
-- **[SHIFT]**+**[OPTION]** will sort a directory by name if it is unsorted.
-
-- **[OPTION]** will exit the file browser.
-
-- **[OPTION]**+**[EDIT]** to delete a file
-
-
-## Song View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]**+**[UP or DOWN]** Move/scroll the cursor 16 rows up or down.
-
-### Playing
-
-- **[PLAY]** Plays/stops all tracks.
-
-- **[LEFT]**+**[PLAY]** Cue the selected song row for playback.
-
-- **[OPTION]**+**[LEFT or RIGHT]** Solo all tracks to the left or right side of the cursor’s position.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]** On an empty column (“--”): inserts a chain with a default value of the last edited or deleted chain.
-
-- **[EDIT]**+**[DIRECTION]** Edits the chain number on the cursor’s position. In selection mode: Selected contents can be moved up or down.
-
-- **[EDIT]**+**[EDIT]** (double tap) Will insert a new unused empty chain.
-
-- **[EDIT]**+**[OPTION]** Deletes/cuts the selected chain. In selection mode, cuts the selection into the copy buffer.
-
-- **[SHIFT]**+**[OPTION]** Enters selection mode for moving, copying, or cutting chains.
-
-- **[OPTION]** While playback is stopped, hold option to reveal the current track’s time in min:sec. In selection mode: copies the selection and exits selection mode.
-
-- **[SHIFT]**+**[EDIT]** Pastes the copy buffer that was copied in selection mode.
-
-- **[SHIFT]**+**[OPTION, then EDIT]** Copies the contents of the selected chain into a new chain number. (I.e. “clone”).
-
-- **[SHIFT]**+**[OPTION, then double tap EDIT]** Copies the contents of the selected chain and the contents of all phrases inside the chain into a new chain and phrases. (I.e. “deep clone”).
-
-- **[OPTION]**+**[OPTION]**+**[OPTION]** Creates or removes a “bookmark” to mark a chain
-
-- **[EDIT]**+**[EDIT]** While playback is stopped and in selection mode, render the selection to a new instrument
-
-
-## Chain View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]**+**[UP or DOWN]** Navigate to previous or next chain in the song.
-
-- **[OPTION]**+**[LEFT or RIGHT]** Navigate to previous or next track.
-
-### Playing
-
-- **[PLAY]** Starts/stops playing chain at cursor position.
-
-- **[SHIFT]**+**[PLAY]** Continue song at cursor position.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]** On an empty row (“--”): insert a phrase with a default value of the last edited or deleted phrase.
-
-- **[EDIT]**+**[DIRECTION]** Edits the phrase number on the cursor’s position.
-
-- **[EDIT]**+**[EDIT]** (double tap) Will insert a new unused empty phrase.
-
-- **[EDIT]**+**[OPTION]** Deletes/cuts the selected phrase. In selection mode, cuts the selection into the copy buffer.
-
-- **[SHIFT]**+**[OPTION]** Enters selection mode for moving, copying, or cutting a block of phrases.
-
-- **[OPTION]** In selection mode: copies the selection and exits selection mode.
-
-- **[SHIFT]**+**[EDIT]** Pastes the copy buffer that was copied in selection mode.
-
-- **[SHIFT]**+**[OPTION, then EDIT]** Copies the contents of the selected phrase into a new number. (I.e. “clone”).
-
-
-## Phrase View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]**+**[UP or DOWN]** Navigate to previous or next phrase in the chain.
-
-- **[OPTION]**+**[LEFT or RIGHT]** Navigate to previous or next track.
-
-### Playing
-
-- **[PLAY]** Starts/stops playing phrase.
-
-- **[SHIFT]**+**[PLAY]** Continue song at chain position.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]** On an empty cell: insert a new value with a default value of the last edited or deleted value.
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value on the cursor’s position incrementing by large steps. On a command column: show the Effect Help/Selection view. In selection mode: If multiple colums and row are selected the contents can be shifted up or down.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value on the cursor’s position incrementing by small steps.
-
-- **[EDIT]**+**[EDIT]** (double tap) On the instrument column: set the selected instrument value to a new unused instrument. On a command value column where the command is the table or groove command (TBL or GRV): set the value to a new unused table.
-
-- **[EDIT]**+**[OPTION]** Deletes/cuts the selected value. In selection mode: cuts the selection into the copy buffer.
-
-- **[SHIFT]**+**[OPTION]** Enters selection mode for moving, copying, or cutting a block of phrase data.
-
-- **[OPTION]** In selection mode: copies the selection and exits selection mode.
-
-- **[OPTION]**+**[UP or DOWN]** In selection mode: Randomize the note value up or down, else navigates to the previous or next phrase in the chain.
-
-- **[OPTION]**+**[LEFT or RIGHT]** In selection mode: Left to cycle note fill modes, right to randomize note and instrument triggers, else navigates to the previous or next track’s phrase. * When exiting selection mode after a fill action, perform a paste to undo.
-
-- **[SHIFT]**+**[EDIT]** Pastes the copy buffer that was copied in selection mode. In selection mode: with a series of rows and a single column highlighted: interpolate the selected range.
-
-- **[SHIFT]**+**[OPTION, then EDIT]** On the instrument column or on a command value column where the command is the table or groove command (TBL or GRV): copy the contents of the selected data into a new number. (I.e. “clone”).
-
-
-## Instrument View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]**+**[LEFT or RIGHT]** Navigate to previous or next instrument.
-
-- **[OPTION]**+**[UP or DOWN]** Navigate +/- 16 instruments.
-
-- **[SHIFT]**+**[LEFT or RIGHT]** Will navigate to the phrase or table view respectively (from both the Instrument view or Instrument Envelopes view) and set the default FX command value to the instrument parameter that is hlighted.
-
-### Playing
-
-- **[PLAY]** Start/stops playing phrase.
-
-- **[EDIT]**+**[PLAY]** Preview instrument.
-
-- **[SHIFT]**+**[PLAY]** Continue song at chain position.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]**+**[UP or DOWN]** Edit the selected value on the cursor’s position incrementing by large steps.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edit the selected value on the cursor’s position incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Set the selected value to the default setting.
-
-- **[SHIFT]**+**[OPTION]** Copy current instrument.
-
-- **[SHIFT]**+**[EDIT]** Paste instrument or undo a paste operation.
-
-- **[EDIT+TOUCHSCREEN]** Edit selected value with the position of a finger on any value with a visual slider.
-
-- **[OPTION+TOUCHSCREEN]** Assign the touchscreen axis to the selected parameter on any value with a visual slider. See the section on the MIDI Mappings view.
-
-
-## Instrument Modulation View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]**+**[LEFT or RIGHT]** Navigate to previous or next instrument.
-
-- **[OPTION]**+**[UP or DOWN]** Navigate +/- 16 instruments.
-
-- **[SHIFT]**+**[LEFT or RIGHT]** Will navigate to the phrase or table view respectively (from both the Instrument view or Instrument Envelopes view) and set the default FX command value to the instrument parameter that is highlighted.
-
-### Playing
-
-- **[PLAY]** Start/stops playing phrase.
-
-- **[EDIT]**+**[PLAY]** Preview instrument.
-
-- **[SHIFT]**+**[PLAY]** Continue song at chain position.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]**+**[UP or DOWN]** Edit the selected value on the cursor’s position incrementing by large steps.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edit the selected value on the cursor’s position incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Set the selected value to the default setting.
-
-- **[SHIFT]**+**[OPTION]** Copy currently selected modulation slot.
-
-- **[SHIFT]**+**[EDIT]** Paste modulation slot.
-
-- **[EDIT+TOUCHSCREEN]** Edit selected value with the position of a finger on any value with a visual slider.
-
-- **[OPTION+TOUCHSCREEN]** Assign the touchscreen axis to the selected parameter on any value with a visual slider. See the section on the MIDI Mappings view.
-
-
-## Table View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]**+**[LEFT or RIGHT]** Navigate to previous or next table.
-
-- **[OPTION]**+**[UP or DOWN]** Navigate +/- 16 tables.
-
-### Playing
-
-- **[PLAY]** Starts/stops playing phrase.
-
-- **[SHIFT]**+**[PLAY]** Continue song at chain position.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]** On an empty cell: insert a new value with a default value of the last edited or deleted value. In selection mode with a single column highlighted: interpolate the selected range.
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value on the cursor’s position incrementing by large steps. On a command column: show the Effect Help/Selection view. In selection mode: If multiple columns and row are selected the contents can be shifted up or down.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value on the cursor’s position incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Deletes/cuts the selected value. In selection mode, cuts the selection into the copy buffer.
-
-- **[SHIFT]**+**[OPTION]** Enters selection mode for moving, copying, or cutting a block of table data.
-
-- **[OPTION]** In selection mode: copies the selection and exits selection mode.
-
-- **[SHIFT]**+**[EDIT]** Pastes the copy buffer that was copied in selection mode.
-
-- **[SHIFT]**+**[OPTION, then EDIT]** On a command value column where the command is the table or groove command (TBL or GRV): copy the contents of the selected data into a new number. (I.e. “clone”).
-
-
-## Groove View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]**+**[LEFT or RIGHT]** Navigate to previous or next groove.
-
-- **[OPTION]**+**[UP or DOWN]** Navigate +/- 16 grooves.
-
-### Playing
-
-- **[PLAY]** Starts/stops playing phrase.
-
-- **[SHIFT]**+**[PLAY]** Continue song at chain position.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]** On an empty cell: insert a new value with a default value of the last edited or deleted value.
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value and the value above or beneath.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value by small increments.
-
-- **[EDIT]**+**[OPTION]** Deletes/cuts the selected value. In selection mode: cut the selection into the copy buffer.
-
-- **[SHIFT]**+**[OPTION]** Enters selection mode for moving, copying, or cutting a block of table data.
-
-- **[OPTION]** In selection mode: copy the selection and exits selection mode.
-
-- **[SHIFT]**+**[EDIT]** In selection mode interpolate the selected range, else pastes contents from the copy buffer.
-
-
-## Scale View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]**+**[LEFT or RIGHT]** Navigate to previous or next scale.
-
-- **[OPTION]**+**[UP or DOWN]** Navigate to the first or last scale.
-
-### Playing
-
-- **[PLAY]** Starts/stops playing phrase.
-
-- **[SHIFT]**+**[PLAY]** Continue song at chain position.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]** On an empty cell: insert a new value with a default value of the last edited or deleted value.
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value and the value above or beneath.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value by small increments.
-
-- **[EDIT]**+**[OPTION]** Deletes/cuts the selected value. In selection mode: cut the selection into the copy buffer
-
-
-## Mixer View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-### Playing
-
-- **[PLAY]** Plays/stops all tracks.
-
-- **[SHIFT]**+[PLAY] Plays/stops all tracks.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value incrementing by large steps.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Set selected parameter to its default value.
-
-- **[SHIFT]**+**[OPTION]** Creates a song snapshot for temporarily storing entire song to recall at a later point.
-
-- **[SHIFT]**+**[EDIT]** Recall song snapshot. See **[SHIFT]**+**[OPTION]**
-
-- **[OPTION+TOUCHSCREEN]** Assign the touchscreen axis to the selected parameter. See MIDI Mappings view.
-
-- **[OPTION+MIDI CC]** Assign a MIDI CC to the selected parameter. See MIDI Mappings view
-
-
-## Effect Settings View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-### Playing
-
-- **[PLAY]** Starts/stops all tracks.
-
-- **[SHIFT]**+**[PLAY]** Starts/stops all tracks.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+[SHIFT]+[PLAY] Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value incrementing by large steps.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Set selected parameter to its default value.
-
-- **[OPTION+TOUCHSCREEN]** Assign the touchscreen axis to the selected parameter. See MIDI Mappings view.
-
-- **[OPTION+MIDI CC]** Assign a MIDI CC to the selected parameter. See MIDI Mappings view.
-
-
-## Project View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-### Playing
-
-- **[PLAY]** Plays/stops all tracks.
-
-- **[SHIFT]**+**[PLAY]** Plays/stops all tracks.
-
-- **[OPTION]**+**[SHIFT]** Mute current track (release option first to hold the mute).
-
-- **[OPTION]**+**[PLAY]** Solo current track (release option first to hold the solo).
-
-- **[OPTION]**+**[SHIFT]**+**[PLAY]** Clears all mute and solos.
-
-### Editing
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value incrementing by large steps.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Set selected parameter to its default value.
-
-- **[SHIFT]**+**[OPTION]** Creates a song snapshot for temporarily storing entire song to recall at a later point.
-
-- **[SHIFT]**+**[EDIT]** Recall song snapshot. See **[SHIFT]**+**[OPTION]**
-
-
-## Theme View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor
-
-- **[OPTION]** Exits view
-
-### Editing
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value incrementing by large steps
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Set selected parameter to its default value.
-
-
-## MIDI Mapping View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]** Exits view.
-
-### Editing
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value incrementing by large steps.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Delete a mapping.
-
-
-## MIDI Settings View Shortcuts
-
-### Navigating
-
-- **[DIRECTION]** Move cursor.
-
-- **[OPTION]** Exits view.
-
-### Editing
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value incrementing by large steps.
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Delete a mapping.
-
-### MIDI Settings View Shortcuts
-
-- **[DIRECTION]** Move cursor
-
-- **[OPTION]** Exits view
-
-- **[EDIT]**+**[UP or DOWN]** Edits the selected value incrementing by large steps
-
-- **[EDIT]**+**[LEFT or RIGHT]** Edits the selected value incrementing by small steps.
-
-- **[EDIT]**+**[OPTION]** Delete a mapping.
-
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| File Browser | Jump to top of list | **[LEFT]** | — |
+| File Browser | Jump to bottom of list | **[RIGHT]** | — |
+| File Browser | Skip ±8 entries | **[OPTION]**+**[UP or DOWN]** | — |
+| File Browser | Preview sample/instrument | **[PLAY]** | While browsing samples/instruments. |
+| File Browser | Sort directory by name | **[SHIFT]**+**[OPTION]** | If unsorted. |
+| File Browser | Exit file browser | **[OPTION]** | — |
+| File Browser | Delete file | **[OPTION]**+**[EDIT]** | — |
+
+## Song View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Scroll ±16 rows | **[OPTION]**+**[UP or DOWN]** | — |
+| Playing | Play/stop all tracks | **[PLAY]** | — |
+| Playing | Cue selected row | **[LEFT]**+**[PLAY]** | — |
+| Playing | Solo left or right side | **[OPTION]**+**[LEFT or RIGHT]** | Relative to cursor. |
+| Playing | Mute current track | **[OPTION]**+**[SHIFT]** | Release **[OPTION]** first to hold mute. |
+| Playing | Solo current track | **[OPTION]**+**[PLAY]** | Release **[OPTION]** first to hold solo. |
+| Playing | Clear all mute/solo | **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Insert chain (default/last) | **[EDIT]** | On empty column (“--”). |
+| Editing | Edit chain number / move selection | **[EDIT]**+**[DIRECTION]** | In selection mode: move selection up/down. |
+| Editing | Insert new empty chain | **[EDIT]**+**[EDIT]** | Double tap. |
+| Editing | Delete/cut chain | **[EDIT]**+**[OPTION]** | In selection mode: cuts selection to buffer. |
+| Editing | Enter selection mode (chains) | **[SHIFT]**+**[OPTION]** | Move/copy/cut chains. |
+| Editing | Show track time (stopped) / copy selection | **[OPTION]** | Hold to show time; in selection mode: copy & exit selection. |
+| Editing | Paste from selection buffer | **[SHIFT]**+**[EDIT]** | — |
+| Editing | Clone chain | **[SHIFT]**+**[OPTION, then EDIT]** | Copy contents to a new chain number. |
+| Editing | Deep clone chain + phrases | **[SHIFT]**+**[OPTION, then double tap EDIT]** | New chain and new phrases. |
+| Editing | Toggle “bookmark” on chain | **[OPTION]**+**[OPTION]**+**[OPTION]** | Triple tap. |
+| Editing | Render selection to instrument | **[EDIT]**+**[EDIT]** | While stopped & in selection mode. |
+
+## Chain View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Prev/next chain in song | **[OPTION]**+**[UP or DOWN]** | — |
+| Navigating | Prev/next track | **[OPTION]**+**[LEFT or RIGHT]** | — |
+| Playing | Play/stop chain | **[PLAY]** | At cursor. |
+| Playing | Continue song | **[SHIFT]**+**[PLAY]** | From cursor. |
+| Playing | Mute current track | **[OPTION]**+**[SHIFT]** | Release **[OPTION]** first to hold. |
+| Playing | Solo current track | **[OPTION]**+**[PLAY]** | Release **[OPTION]** first to hold. |
+| Playing | Clear all mute/solo | **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Insert phrase (default/last) | **[EDIT]** | On empty row (“--”). |
+| Editing | Edit phrase number | **[EDIT]**+**[DIRECTION]** | — |
+| Editing | Insert new empty phrase | **[EDIT]**+**[EDIT]** | Double tap. |
+| Editing | Delete/cut phrase | **[EDIT]**+**[OPTION]** | In selection mode: cuts selection to buffer. |
+| Editing | Selection mode (phrases) | **[SHIFT]**+**[OPTION]** | Move/copy/cut block. |
+| Editing | Copy selection & exit | **[OPTION]** | In selection mode. |
+| Editing | Paste selection buffer | **[SHIFT]**+**[EDIT]** | — |
+| Editing | Clone phrase | **[SHIFT]**+**[OPTION, then EDIT]** | Copy to new number. |
+
+## Phrase View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Prev/next phrase in chain | **[OPTION]**+**[UP or DOWN]** | — |
+| Navigating | Prev/next track | **[OPTION]**+**[LEFT or RIGHT]** | — |
+| Playing | Play/stop phrase | **[PLAY]** | — |
+| Playing | Continue song at chain | **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute current track | **[OPTION]**+**[SHIFT]** | Release **[OPTION]** first to hold. |
+| Playing | Solo current track | **[OPTION]**+**[PLAY]** | Release **[OPTION]** first to hold. |
+| Playing | Clear all mute/solo | **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Insert last value | **[EDIT]** | On empty cell. |
+| Editing | Edit (large steps) / Effect help | **[EDIT]**+**[UP or DOWN]** | Command column: Effect Help/Selection. In selection: shift multi-row/col up/down. |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | New unused instrument / table | **[EDIT]**+**[EDIT]** | Double tap. Instrument column → new instrument; TBL/GRV value column → new table. |
+| Editing | Delete/cut | **[EDIT]**+**[OPTION]** | In selection: cuts to buffer. |
+| Editing | Selection mode (phrase data) | **[SHIFT]**+**[OPTION]** | Move/copy/cut block. |
+| Editing | Copy selection & exit | **[OPTION]** | In selection mode. |
+| Editing | Randomize notes / navigate | **[OPTION]**+**[UP or DOWN]** | In selection: randomize note up/down; else: prev/next phrase. |
+| Editing | Fill/randomize tools / navigate | **[OPTION]**+**[LEFT or RIGHT]** | Selection: Left=cycle note fill, Right=randomize note+instrument; else: prev/next track’s phrase. *After fill, paste to undo.* |
+| Editing | Paste / interpolate | **[SHIFT]**+**[EDIT]** | Selection with single column & series of rows: interpolate; else: paste. |
+| Editing | Clone instrument/table/groove | **[SHIFT]**+**[OPTION, then EDIT]** | From instrument column or TBL/GRV value column to new number. |
+
+## Instrument View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Prev/next instrument | **[OPTION]**+**[LEFT or RIGHT]** | — |
+| Navigating | Jump ±16 instruments | **[OPTION]**+**[UP or DOWN]** | — |
+| Navigating | Jump to Phrase/Table view | **[SHIFT]**+**[LEFT or RIGHT]** | Sets default FX command to highlighted parameter. |
+| Playing | Play/stop phrase | **[PLAY]** | — |
+| Playing | Preview instrument | **[EDIT]**+**[PLAY]** | — |
+| Playing | Continue song at chain | **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute/Solo/Clear | **[OPTION]**+**[SHIFT]**, **[OPTION]**+**[PLAY]**, **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Edit (large steps) | **[EDIT]**+**[UP or DOWN]** | — |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Reset to default | **[EDIT]**+**[OPTION]** | — |
+| Editing | Copy instrument | **[SHIFT]**+**[OPTION]** | — |
+| Editing | Paste / undo paste | **[SHIFT]**+**[EDIT]** | — |
+| Editing | Touch edit (slider) | **[EDIT+TOUCHSCREEN]** | Finger position controls value. |
+| Editing | Map touchscreen axis | **[OPTION+TOUCHSCREEN]** | Assign axis to selected parameter (see MIDI Mappings). |
+
+## Instrument Modulation View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Prev/next instrument | **[OPTION]**+**[LEFT or RIGHT]** | — |
+| Navigating | Jump ±16 instruments | **[OPTION]**+**[UP or DOWN]** | — |
+| Navigating | Jump to Phrase/Table view | **[SHIFT]**+**[LEFT or RIGHT]** | Sets default FX to highlighted parameter. |
+| Playing | Play/stop phrase | **[PLAY]** | — |
+| Playing | Preview instrument | **[EDIT]**+**[PLAY]** | — |
+| Playing | Continue song at chain | **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute/Solo/Clear | **[OPTION]**+**[SHIFT]**, **[OPTION]**+**[PLAY]**, **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Edit (large steps) | **[EDIT]**+**[UP or DOWN]** | — |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Reset to default | **[EDIT]**+**[OPTION]** | — |
+| Editing | Copy modulation slot | **[SHIFT]**+**[OPTION]** | — |
+| Editing | Paste modulation slot | **[SHIFT]**+**[EDIT]** | — |
+| Editing | Touch edit (slider) | **[EDIT+TOUCHSCREEN]** | — |
+| Editing | Map touchscreen axis | **[OPTION+TOUCHSCREEN]** | See MIDI Mappings. |
+
+## Table View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Prev/next table | **[OPTION]**+**[LEFT or RIGHT]** | — |
+| Navigating | Jump ±16 tables | **[OPTION]**+**[UP or DOWN]** | — |
+| Playing | Play/stop phrase | **[PLAY]** | — |
+| Playing | Continue song at chain | **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute/Solo/Clear | **[OPTION]**+**[SHIFT]**, **[OPTION]**+**[PLAY]**, **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Insert last value / interpolate | **[EDIT]** | Empty cell: insert. In selection with single column: interpolate range. |
+| Editing | Edit (large steps) / Effect help | **[EDIT]**+**[UP or DOWN]** | Command column: Effect Help/Selection. In selection: shift multi-row/col up/down. |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Delete/cut | **[EDIT]**+**[OPTION]** | In selection: cuts to buffer. |
+| Editing | Selection mode (table data) | **[SHIFT]**+**[OPTION]** | Move/copy/cut block. |
+| Editing | Copy selection & exit | **[OPTION]** | In selection mode. |
+| Editing | Paste from buffer | **[SHIFT]**+**[EDIT]** | — |
+| Editing | Clone table/groove | **[SHIFT]**+**[OPTION, then EDIT]** | From TBL/GRV value column to new number. |
+
+## Groove View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Prev/next groove | **[OPTION]**+**[LEFT or RIGHT]** | — |
+| Navigating | Jump ±16 grooves | **[OPTION]**+**[UP or DOWN]** | — |
+| Playing | Play/stop phrase | **[PLAY]** | — |
+| Playing | Continue song at chain | **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute/Solo/Clear | **[OPTION]**+**[SHIFT]**, **[OPTION]**+**[PLAY]**, **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Insert last value | **[EDIT]** | On empty cell. |
+| Editing | Edit ± with neighbor | **[EDIT]**+**[UP or DOWN]** | Edits selected and value above/below. |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Delete/cut | **[EDIT]**+**[OPTION]** | In selection: cut to buffer. |
+| Editing | Selection mode (table data) | **[SHIFT]**+**[OPTION]** | Move/copy/cut. |
+| Editing | Copy selection & exit | **[OPTION]** | In selection mode. |
+| Editing | Interpolate / paste | **[SHIFT]**+**[EDIT]** | In selection: interpolate; else: paste. |
+
+## Scale View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Prev/next scale | **[OPTION]**+**[LEFT or RIGHT]** | — |
+| Navigating | First/last scale | **[OPTION]**+**[UP or DOWN]** | — |
+| Playing | Play/stop phrase | **[PLAY]** | — |
+| Playing | Continue song at chain | **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute/Solo/Clear | **[OPTION]**+**[SHIFT]**, **[OPTION]**+**[PLAY]**, **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Insert last value | **[EDIT]** | On empty cell. |
+| Editing | Edit ± with neighbor | **[EDIT]**+**[UP or DOWN]** | Edits selected and above/beneath. |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Delete/cut | **[EDIT]**+**[OPTION]** | In selection: cuts to buffer. |
+
+## Mixer View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Playing | Play/stop all tracks | **[PLAY]** | — |
+| Playing | Play/stop all tracks | **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute current track | **[OPTION]**+**[SHIFT]** | Release **[OPTION]** first to hold. |
+| Playing | Solo current track | **[OPTION]**+**[PLAY]** | Release **[OPTION]** first to hold. |
+| Playing | Clear all mute/solo | **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Edit (large steps) | **[EDIT]**+**[UP or DOWN]** | — |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Reset parameter | **[EDIT]**+**[OPTION]** | — |
+| Editing | Create song snapshot | **[SHIFT]**+**[OPTION]** | Temporarily store entire song. |
+| Editing | Recall song snapshot | **[SHIFT]**+**[EDIT]** | Recalls snapshot created above. |
+| Editing | Map touchscreen axis | **[OPTION+TOUCHSCREEN]** | See MIDI Mappings view. |
+| Editing | Assign MIDI CC | **[OPTION+MIDI CC]** | Assign to selected parameter. |
+
+## Effect Settings View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Playing | Play/stop all tracks | **[PLAY]**, **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute/Solo/Clear | **[OPTION]**+**[SHIFT]**, **[OPTION]**+**[PLAY]**, **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Edit (large steps) | **[EDIT]**+**[UP or DOWN]** | — |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Reset parameter | **[EDIT]**+**[OPTION]** | — |
+| Editing | Map touchscreen axis | **[OPTION+TOUCHSCREEN]** | See MIDI Mappings view. |
+| Editing | Assign MIDI CC | **[OPTION+MIDI CC]** | See MIDI Mappings view. |
+
+## Project View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Playing | Play/stop all tracks | **[PLAY]**, **[SHIFT]**+**[PLAY]** | — |
+| Playing | Mute/Solo/Clear | **[OPTION]**+**[SHIFT]**, **[OPTION]**+**[PLAY]**, **[OPTION]**+**[SHIFT]**+**[PLAY]** | — |
+| Editing | Edit (large steps) | **[EDIT]**+**[UP or DOWN]** | — |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Reset parameter | **[EDIT]**+**[OPTION]** | — |
+| Editing | Create song snapshot | **[SHIFT]**+**[OPTION]** | — |
+| Editing | Recall song snapshot | **[SHIFT]**+**[EDIT]** | — |
+
+## Theme View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Exit view | **[OPTION]** | — |
+| Editing | Edit (large steps) | **[EDIT]**+**[UP or DOWN]** | — |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Reset parameter | **[EDIT]**+**[OPTION]** | — |
+
+## MIDI Mapping View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Exit view | **[OPTION]** | — |
+| Editing | Edit (large steps) | **[EDIT]**+**[UP or DOWN]** | — |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Delete a mapping | **[EDIT]**+**[OPTION]** | — |
+
+## MIDI Settings View
+| Context | Action | Shortcut | Notes |
+|---|---|---|---|
+| Navigating | Move cursor | **[DIRECTION]** | — |
+| Navigating | Exit view | **[OPTION]** | — |
+| Editing | Edit (large steps) | **[EDIT]**+**[UP or DOWN]** | — |
+| Editing | Edit (small steps) | **[EDIT]**+**[LEFT or RIGHT]** | — |
+| Editing | Delete a mapping | **[EDIT]**+**[OPTION]** | — |
 
 ---
 *Source: [Devin Dominguez @ Github Gist](https://gist.github.com/devin-dominguez/587720c9ab71b2d9f3c4bd48d9c812ca)*
