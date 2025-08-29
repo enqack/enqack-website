@@ -16,7 +16,7 @@ jobs:
           hugo-version: '0.148.2'
           extended: true
 
-      - name: Debug: show lockfiles
+      - name: Debug show lockfiles
         run: |
           echo "pwd: $(pwd)"
           find . -maxdepth 3 -name package-lock.json -print
