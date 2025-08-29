@@ -16,7 +16,7 @@ There is nothing special to do here yet. Just spin up from within the repo with 
 
 `hugo server`
 
-## Delpoyment
+## Deployment
 
 ### Overview
 
