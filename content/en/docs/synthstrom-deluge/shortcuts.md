@@ -29,7 +29,7 @@ categories: ["Synthstrom Audible Deluge"]
 | Sampling | Resample | Shift + Record |
 | Sequencer | Nudge clock | Horizontal + turn Tempo |
 
-## Parameter Control - Rotary Push Controls - Toggle Options
+## Parameter Control – Rotary Push Controls – Toggle Options
 | Context | Action | Shortcut |
 |---|---|---|
 | FX | LP, HP, EQ option | [CUTOFF / RES] = on, upper Gold |
@@ -73,44 +73,44 @@ categories: ["Synthstrom Audible Deluge"]
 | Looping | Continuous overdub layering | Hold Record + press Audition of row underneath |
 | Looping | ‘Loop pedal’ record | Record loop while no other clip is playing and metronome is off |
 | Looping | Grab tempo from audio clip | Tempo + press Pad for clip row (Song) or any pad (Clip View) |
-| Looping | Select MIDI switch LOOP target | Enter audio clip or hold clip row in song view + press switch |
+| Looping | Select MIDI switch LOOP target | Enter audio clip or hold clip row in Song View + press switch |
 | Looping | Auto extending instrument clip record | In record mode, unmute armed empty clip during playback |
 
 ## Arranger View
 | Context | Action | Shortcut |
 |---|---|---|
-| Clip | Place clip instance | Press Pad |
+| Clip | Place clip instance | Pad |
 | Clip | Delete clip instance | Pad (leftmost start pad of an instance) |
 | Clip | Clip instance length | Hold Pad start + press Pad end on same row |
 | Clip | Move clip instance horizontally | Hold Pad + turn Horizontal |
 | Clip | Change instance clip | Hold Pad + turn Select |
 | Clip | Make clip instance unique | Shift + Pad (creates a ‘white’ clip) |
-| Clip | Adjust clip instance parameters | Hold Pad + turn upper/lower Gold for selected parameter |
-| Clip | Enter clip view for a clip | Press any clip instance pad other than the first/leftmost |
-| Clip | Drag ‘unique’ clip instance to song view | Hold Pad + Song + turn Vertical, then release pad |
+| Clip | Adjust clip instance parameters | Hold Pad + turn upper/lower Gold (selected parameter) |
+| Clip | Enter clip view for a clip | Any clip instance pad other than the first/leftmost |
+| Clip | Drag ‘unique’ clip instance to Song View | Hold Pad + Song + turn Vertical, then release pad |
 | Row | Quantize or Humanize row | Hold Audition + turn Tempo (Right = Quantize / Left = Humanize) |
 | Row | Move track | Hold Audition + turn Vertical |
-| Instrument | Mute / unmute track | Mute for row |
-| Instrument | Solo track | Horizontal + Mute for instrument |
+| Instrument | Mute / unmute track | Mute (for row) |
+| Instrument | Solo track | Horizontal + Mute (for instrument) |
 | Instrument | Change or Add new instrument | Hold Audition + turn Select or press Synth/Kit/MIDI/CV |
 | Instrument | Delete track row | Hold Audition + Save |
-| Instrument | Audition instrument | Audition (Song’s root note or snare drum in kit mode) |
+| Instrument | Audition instrument | Audition (Song’s root or snare in kit mode) |
 | Arrangement | Clear arrangement | Horizontal + Back |
 | Audio | Create new audio track | Empty lane Audition + Select |
 | Audio | Set input source for audio track | Learn + Audition of audio track |
-| Audio | Record audio from current position | Press Play while in Record, with armed audio present |
+| Audio | Record audio from current position | Play while in Record, with armed audio present |
 
 ## Clip View
 | Context | Action | Shortcut |
 |---|---|---|
 | Clip | Change clip colour | Shift + turn Vertical |
-| Clip | Change clip preset, MIDI Ch, CV out | turn Select |
+| Clip | Change preset / MIDI Ch / CV out | turn Select |
 | Clip | Adjust clip length | Shift + turn Horizontal |
-| Clip | Duplicate / multiply and append content | Shift + Horizontal |
+| Clip | Duplicate / multiply & append content | Shift + Horizontal |
 | Clip | Horizontal clip shift / nudge L–R | Vertical + turn Horizontal |
 | Clip | Playback from current screen | Horizontal + Play |
 | Clip | Clear clip | Horizontal + Back |
-| Clip | Change Clip Direction | Shift + Direction (pad to the right of OSC SYNC on FM MOD 1) |
+| Clip | Change clip direction | Shift + Direction (pad to the right of OSC SYNC on FM MOD 1) |
 | Note | Note length | Hold Pad start + press Pad end on same row |
 | Note | Note length – long | Press Pad start, navigate with Horizontal; Horizontal + press Pad end |
 | Note | Note velocity | Hold Pad on the grid + turn Horizontal |
@@ -118,14 +118,14 @@ categories: ["Synthstrom Audible Deluge"]
 | Note | Note play probability % | Hold Pad of note + turn Select (anticlockwise/left) |
 | Note | Set dependence on first note | Hold All Pads together + turn Select (anticlockwise/left) |
 | Note | Iteration dependence for a note | Hold Pad of note + turn Select (clockwise/right) |
-| Note | Copy notes | Hold Learn + Horizontal |
-| Note | Paste notes | Hold Learn + Shift + Horizontal |
+| Note | Copy notes | Learn + Horizontal |
+| Note | Paste notes | Learn + Shift + Horizontal |
 | Note | Nudge individual notes horizontally | Hold Pad + press & turn Horizontal |
 | Parameter | Automate a parameter (while recording) | Turn upper/lower Gold of selected parameter |
 | Parameter | Per note parameter change | Hold Pad of note start + turn upper/lower Gold |
 | Parameter | Delete parameter automation | Shift + upper/lower Gold of selected parameter |
-| Parameter | Copy automation | Hold Learn + upper/lower Gold of selected parameter |
-| Parameter | Paste automation | Hold Learn + Shift + upper/lower Gold of selected parameter |
+| Parameter | Copy automation | Learn + upper/lower Gold of selected parameter |
+| Parameter | Paste automation | Learn + Shift + upper/lower Gold of selected parameter |
 | Sample | Load sample | Audition + Load |
 | Sound | Sound Editor | Shift + Pad of shortcut as labelled or Select |
 | Preset | Preset load interface | Load + Synth or Kit or MIDI |
@@ -140,7 +140,7 @@ categories: ["Synthstrom Audible Deluge"]
 |---|---|---|
 | Sound Editor | Move cursor | turn Horizontal |
 | Controls | Parameter knob assignment | Hold Learn + turn upper/lower Gold (parameter control) |
-| Controls | MIDI knob assignment | Hold Learn + turn (MIDI) Control of external device |
+| Controls | MIDI knob assignment | Hold Learn + turn (MIDI) control of external device |
 | Controls | Unassign MIDI control knob | Shift + Learn |
 | Preset | Save preset | Save |
 | Parameter | Apply a change to entire kit | Hold Affect Entire while changing parameter |
@@ -216,5 +216,6 @@ categories: ["Synthstrom Audible Deluge"]
 | Auto Editor | Change zoom level | press & turn Horizontal |
 | Auto Editor | Scroll grid | turn Horizontal |
 
+---
 
 > Source: [Deluge Community — Shortcuts](https://delugecommunity.com/reference/shortcuts/) (c1.0.0).
