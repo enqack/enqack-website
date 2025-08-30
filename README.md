@@ -14,6 +14,10 @@ There is nothing special to do here yet. Just spin up from within the repo with 
 
 `cd enqack-website`
 
+`nix-shell #optional`
+
+`npm ci`
+
 `hugo server`
 
 ## Deployment
