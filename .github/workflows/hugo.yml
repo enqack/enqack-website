@@ -68,20 +68,49 @@ jobs:
           mkdir -p ~/.ssh
           printf '%s\n' "${{ secrets.SERVER_HOST_KEY }}" >> ~/.ssh/known_hosts
                   
-      - name: Atomic deploy (rsync + symlink)
+      - name: Atomic deploy (rsync + symlink, keep 5, timestamp-hash)
         run: |
           set -euo pipefail
-          TS="$(date +%Y%m%d%H%M%S)"
-          RELEASES="${{ secrets.DEPLOY_PATH }}/releases"
-          TARGET="$RELEASES/$TS"
 
+          TS="$(date +%Y%m%d%H%M%S)"
+          SHA="$(git rev-parse --short=12 HEAD)"
+          RELEASE="${TS}-${SHA}"
+
+          RELEASES="${{ secrets.DEPLOY_PATH }}/releases"
+          TARGET="$RELEASES/$RELEASE"
+          STAGING="$TARGET.__new"
+
+          # Ensure releases dir exists
           ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
             "mkdir -p '$RELEASES'"
 
+          # Clean any stale staging dir and upload to staging
+          ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
+            "rm -rf '$STAGING'"
+
           rsync -az --delete --chmod=F644,D755 \
             -e "ssh -p ${{ secrets.SERVER_PORT }} -o PreferredAuthentications=publickey" \
-            public/ "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:$TARGET"
+            public/ "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:$STAGING/"
 
-          ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
-            "ln -sfn '$TARGET' '${{ secrets.DEPLOY_PATH }}/current' && \
-             find '$RELEASES' -maxdepth 1 -mindepth 1 -type d | sort -r | tail -n +6 | xargs -r rm -rf"
+          # Atomically promote staging, update symlink, lexicographically prune to 5 newest
+          ssh -p "${{ secrets.SERVER_PORT }}" "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" bash -c "'
+            set -euo pipefail
+            RELEASES=${RELEASES@Q}
+            TARGET=${TARGET@Q}
+            STAGING=${STAGING@Q}
+
+            # Promote (atomic rename within same filesystem)
+            mv -T \"$STAGING\" \"$TARGET\"
+
+            # Point current -> TARGET atomically
+            ln -sfn \"$TARGET\" \"${{ secrets.DEPLOY_PATH }}/current\"
+
+            # Keep only 5 newest by NAME (lexicographic)
+            # List directory basenames, sort descending, drop first 5, delete the rest.
+            to_delete=\$(find \"$RELEASES\" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | sort -r | tail -n +6 || true)
+            if [ -n \"\$to_delete\" ]; then
+              while IFS= read -r d; do
+                rm -rf \"$RELEASES/\$d\"
+              done <<<\"\$to_delete\"
+            fi
+          '"
