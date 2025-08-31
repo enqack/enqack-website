@@ -1,5 +1,5 @@
 ---
-title: "Dirtywave M8 Shortcuts"
+title: "M8 Shortcuts"
 date: 2025-08-28
 tags: ["Reference"]
 categories: ["Dirtywave M8"]
