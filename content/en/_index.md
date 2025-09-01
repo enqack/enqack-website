@@ -10,6 +10,11 @@ title: Enqack
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Documents <i class="fas fa-file-text ms-2"></i>
 </a>
+
+<a class="btn btn-lg btn-success me-3 mb-4" href="/tools/">
+  Tools <i class="fas fa-wrench ms-2"></i>
+</a>
+
 <p class="lead mt-5">Enquiry &mdash; Acknowledged!</p>
 
 {{< /blocks/cover >}}
