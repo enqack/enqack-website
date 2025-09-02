@@ -20,6 +20,8 @@ enableGitInfo: true
 taxonomies:
   tag: "tags"
   category: "categories"
+  brand: "brands"
+  function: "functions"
 
 # Highlighting (legacy pygments flags kept as-is)
 pygmentsCodeFences: true
@@ -114,9 +116,9 @@ params:
 
   # Taxonomy UI bits
   taxonomy:
-    taxonomyCloud: ["tags", "categories"]
-    taxonomyCloudTitle: ["Tag Cloud", "Categories"]
-    taxonomyPageHeader: ["tags", "categories"]
+    taxonomyCloud: ["tags", "categories", "brands", "functions"] 
+    taxonomyCloudTitle: ["Tag Cloud", "Categories", "Brands", "Functions" ]
+    taxonomyPageHeader: ["tags", "categories", "brands", "functions" ]
 
   # UI
   ui:
