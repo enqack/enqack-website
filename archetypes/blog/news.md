@@ -2,6 +2,6 @@
 title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 date: '{{ .DateTime }}'
 tags: 
-categories:
+categories: [ "this" ]
 draft: true
 ---
