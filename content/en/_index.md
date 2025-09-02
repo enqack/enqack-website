@@ -3,15 +3,15 @@ title: Enqack
 ---
 
 {{< blocks/cover title="Welcome to Enqack.net!" image_anchor="top" height="max" >}}
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="/blog/">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/blog/">
   Blog <i class="fas fa-blog ms-2 "></i>
 </a>
 
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="/docs/">
   Documents <i class="fas fa-file-text ms-2"></i>
 </a>
 
-<a class="btn btn-lg btn-success me-3 mb-4" href="/tools/">
+<a class="btn btn-lg btn-dark me-3 mb-4" href="/tools/">
   Tools <i class="fas fa-wrench ms-2"></i>
 </a>
 

@@ -11,11 +11,26 @@
 {{ if $tryautoheight }}
   <script type="text/javascript">
     function resizeIframe(iframe) {
-      iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+      try {
+        // Same-origin only; cross-origin will throw.
+        const doc = iframe.contentWindow?.document;
+        if (doc && doc.body) iframe.style.height = doc.body.scrollHeight + "px";
+      } catch (e) {
+        // Fallback: fixed height or CSS aspect-ratio
+      }
     }
   </script>  
 {{ end }}
-<iframe id="{{ $id }}"{{ with $class }} class="{{ $class }}"{{ end }} src="{{ $src }}" width="{{ $width }}" name="{{ $name }}"{{ with $style }} style="{{ $style | safeCSS }}"{{ end }}{{ if $tryautoheight }} onload="resizeIframe(this)"{{ end }} referrerpolicy="no-referrer"{{ if (eq $sandbox false)}}{{ else if (eq $sandbox true) }} sandbox{{ else }} sandbox="{{ $sandbox }}"{{ end }}>
-  <p>{{ $sub }} <a href="{{ $src }}">{{ $src }}</a></p>
-</iframe>
+  <iframe
+    id="{{ $id }}"
+    {{ with $class }}class="{{ . }}"{{ end }}
+    src="{{ $src }}"
+    width="{{ $width }}"
+    name="{{ $name }}"
+    {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+    {{ if $tryautoheight }}onload="resizeIframe(this)"{{ end }}
+    loading="lazy"
+    referrerpolicy="no-referrer"
+    {{ if (eq $sandbox false) }}{{ else if (eq $sandbox true) }} sandbox{{ else }} sandbox="{{ $sandbox }}"{{ end }}>
+  </iframe>
 {{ end }}

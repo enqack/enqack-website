@@ -9,7 +9,7 @@ defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
 # Useful when translating.
-enableMissingTranslationPlaceholders: true
+enableMissingTranslationPlaceholders: false
 
 enableRobotsTXT: true
 
@@ -141,6 +141,9 @@ params:
       enable: true
 
     search: true
+
+  mermaid:
+    version: "11.10.1"  
 
 # ---- Modules (merged) ----
 module:
