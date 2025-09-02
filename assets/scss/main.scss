@@ -47,8 +47,8 @@
 .td-footer {
   @extend .td-box--primary;
 
-  min-height: 100px;
-  padding-top: map-get($spacers, 5);
+  min-height: 50px;
+  padding-top: map-get($spacers, 2);
 
   @include media-breakpoint-down(lg) {
     min-height: 200px;
