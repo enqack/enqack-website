@@ -4,4 +4,4 @@ menu: {main: {weight: 40}}
 weight: 40
 ---
 
-A collection of tools use various tasks.
+A collection of tools for various tasks.
