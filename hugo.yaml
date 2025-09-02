@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://enqack.net"
 
 canonifyURLs: true
 title: "Enqack.net"
