@@ -5,7 +5,7 @@ tags: [ "discovery" ]
 categories: [ "music" ]
 ---
 
-## TIL about [Strudel](https://strudel.cc)
+## TIL about Strudel
 
 Browsing Youtube, the algorithm presented me with a [Switch Angel](https://www.youtube.com/@Switch-Angel) video in which she was using [Strudel](https://strudel.cc). I was blown away by both of them. Definitely check both of them out.
 
