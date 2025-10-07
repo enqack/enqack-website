@@ -4,6 +4,8 @@ date: 2025-10-06 04:45:38
 tags: [ "chords" ]
 ---
 
+{{< data-tables >}}
+
 | Genre                | Tempo Range (BPM) | Chord Progression            | Chord Notes                                      |
 | -------------------- | ----------------- | ---------------------------- | ------------------------------------------------ |
 | Synthwave            | 80–110            | Am – F – C – G               | A C E - F A C - C E G - G B D                    |
@@ -53,3 +55,5 @@ tags: [ "chords" ]
 | Trance               | 130–145           | Bm – A – G – D               | B D F# - A C# E - G B D - D F# A                 |
 | Trance               | 130–145           | Cm – G♯ – D♯ – A♭          | C E♭ G - G♯ C D# - D# G A# - A♭ C E♭          |
 | Trance               | 130–145           | Fm – D♭ – A♭ – E♭          | F A♭ C - D♭ F A♭ - A♭ C E♭ - E♭ G B♭        |
+
+{{< /data-tables >}}

@@ -178,6 +178,13 @@ module:
     # Workaround for Go modules bug
     - source: assets/_vendor/bootstrap/scss
       target: assets/vendor/bootstrap/scss/vendor
+    # Datatables
+    - source: node_modules/datatables.net
+      target: assets/vendor/datatables.net
+    - source: node_modules/datatables.net-bs5
+      target: assets/vendor/datatables.net-bs5
+
+    
 
   # Imports: keep your Docsy + deps, add Bootstrap/FA with their mounts
   imports:

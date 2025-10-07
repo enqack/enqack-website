@@ -43,7 +43,7 @@ window.markmap = {
   {{ $jsSearch = resources.Get "js/offline-search.js" -}}
 {{ end -}}
 
-{{ $jsArray := slice $jsBs $jsBase $jsSearch $jsPlantuml $jsMarkmap $jsDrawio -}}
+{{ $jsArray := slice $jsBs $jsBase $jsSearch $jsPlantuml $jsMarkmap $jsDrawio }}
 
 {{ if .Page.Store.Get "hasmermaid" -}}
 {{- partial "scripts/mermaid.html" . -}}
@@ -95,3 +95,6 @@ for (let c of containers) {
 }
 </script>
 {{ end -}}
+
+{{ $datatables := resources.Get "js/datatables.js" | js.Build | fingerprint -}}
+<script src="{{ $datatables.RelPermalink }}" integrity="{{ $datatables.Data.Integrity }}" defer></script>

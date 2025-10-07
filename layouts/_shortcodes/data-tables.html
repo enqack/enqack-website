@@ -1,0 +1,17 @@
+{{/* datatable.html */}}
+
+{{- $inner := .InnerDeindent -}}
+{{- $class := .Get 0 | default "DataTables" -}}
+
+{{/* Detect if the content already contains an HTML <table> tag */}}
+{{- $isHTMLTable := findRE "<table" $inner -}}
+
+{{/* Convert Markdown to HTML only if it's not already HTML */}}
+{{- if not $isHTMLTable -}}
+  {{- $inner = $inner | markdownify -}}
+{{- end -}}
+
+{{/* Inject the DataTables class into the table tag */}}
+{{- $output := replaceRE "<table([^>]*)>" (printf "<table class=\"%s\"$1>" $class) $inner -}}
+
+{{- $output | safeHTML -}}
