@@ -166,7 +166,7 @@ module:
       target: layouts
     - source: static
       target: static
-    - source: node_modules/@fortawesome/fontawesome-free/webfonts
+    - source: ../../node_modules/@fortawesome/fontawesome-free/webfonts
       target: static/webfonts
     # NPM-install Docsy usage
     - source: ../../node_modules/bootstrap
@@ -179,12 +179,8 @@ module:
     - source: assets/_vendor/bootstrap/scss
       target: assets/vendor/bootstrap/scss/vendor
     # Datatables
-    - source: node_modules/datatables.net
-      target: assets/vendor/datatables.net
-    - source: node_modules/datatables.net-bs5
-      target: assets/vendor/datatables.net-bs5
-
-    
+    - source: node_modules/datatables.net-bs5/css
+      target: static/css/datatables
 
   # Imports: keep your Docsy + deps, add Bootstrap/FA with their mounts
   imports:

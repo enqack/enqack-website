@@ -1,12 +1,1 @@
-@import "datatables.net-bs5/css/dataTables.bootstrap5.css";
-
-.dataTables_scrollHeadInner,
-.dataTables_scrollHeadInner table {
-  width: 100% !important;
-}
-.dataTables_scrollBody {
-  overflow-x: auto;
-}
-.dataTables_wrapper {
-  width: 100%;
-}
+@import "datatables/dataTables.bootstrap5";

@@ -1,6 +1,12 @@
 {{ $scssMain := "scss/main.scss" -}}
-{{ $css := resources.Get $scssMain
-      | toCSS (dict "enableSourceMap" (not hugo.IsProduction)) -}}
+
+{{/* Tell Hugo's Sass compiler where to look for imports in vendor and node_modules */}}
+{{ $cssOpts := dict
+    "enableSourceMap" (not hugo.IsProduction)
+    "includePaths" (slice "assets/vendor" "node_modules")
+-}}
+
+{{ $css := resources.Get $scssMain | toCSS $cssOpts -}}
 
 {{/* NOTE: we only apply `postCSS` in production or for RTL languages. This
 makes it snappier to develop in Chrome, but it may look sub-optimal in other

@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
       pageLength: 50,
       pagingType: 'full_numbers',
       responsive: true,
-      scrollX: false,
       language: {
         search: 'Filter records:',
         lengthMenu: 'Display _MENU_ records per page',
