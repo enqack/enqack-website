@@ -47,7 +47,7 @@
 {{/* Build theme CSS link if exists */}}
 {{- $themeCSS := "" -}}
 {{- if $theme -}}
-  {{- $themePath := printf "css/datatables-%s.css" $theme -}}
+  {{- $themePath := printf "css/datatables/datatables-%s.css" $theme -}}
   {{- if (fileExists (printf "assets/%s" $themePath)) -}}
     {{- $themeCSS = printf "<link rel=\"stylesheet\" href=\"/%s\">" $themePath -}}
   {{- else if (fileExists (printf "static/%s" $themePath)) -}}

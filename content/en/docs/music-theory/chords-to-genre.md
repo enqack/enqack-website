@@ -4,7 +4,7 @@ date: 2025-10-06 04:45:38
 tags: [ "chords" ]
 ---
 
-{{< data-tables >}}
+{{< data-tables theme="compact">}}
 
 | Genre                | Tempo Range (BPM) | Chord Progression            | Chord Notes                                      |
 | -------------------- | ----------------- | ---------------------------- | ------------------------------------------------ |

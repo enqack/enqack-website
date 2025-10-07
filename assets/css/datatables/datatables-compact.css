@@ -1,0 +1,26 @@
+/* datatables-compact.css
+   Compact table spacing for dense data layouts */
+
+table.DataTables--compact.dataTable,
+.DataTables--compact .dataTables_wrapper {
+  font-size: 0.875rem;
+}
+
+.DataTables--compact table.dataTable thead th,
+.DataTables--compact table.dataTable tbody td {
+  padding: 0.25rem 0.5rem !important;
+}
+
+.DataTables--compact .dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.DataTables--compact .dataTables_length label,
+.DataTables--compact .dataTables_filter label {
+  font-size: 0.8rem;
+}
+
+.DataTables--compact .dataTables_info {
+  font-size: 0.75rem;
+}

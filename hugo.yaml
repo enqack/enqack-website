@@ -181,6 +181,8 @@ module:
     # Datatables
     - source: node_modules/datatables.net-bs5/css
       target: static/css/datatables
+    - source: assets/css/datatables
+      target: static/css/datatables
 
   # Imports: keep your Docsy + deps, add Bootstrap/FA with their mounts
   imports:
