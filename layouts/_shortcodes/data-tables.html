@@ -1,17 +1,64 @@
-{{/* data-table.html */}}
+{{/* data-table.html — Hugo 0.110+ compatible, themed, and JSON/YAML-capable DataTables shortcode */}}
 
 {{- $inner := .InnerDeindent -}}
-{{- $class := .Get 0 | default "DataTables" -}}
 
-{{/* Detect if the content already contains an HTML <table> tag */}}
-{{- $isHTMLTable := findRE "<table" $inner -}}
+{{/* Base class and optional theme */}}
+{{- $class := .Get "class" | default "DataTables" -}}
+{{- $theme := .Get "theme" | default "" -}}
 
-{{/* Convert Markdown to HTML only if it's not already HTML */}}
-{{- if not $isHTMLTable -}}
-  {{- $inner = $inner | markdownify -}}
+{{- $themeClass := "" -}}
+{{- if $theme -}}
+  {{- $themeClass = printf "%s--%s" $class $theme -}}
+  {{- $class = printf "%s %s" $class $themeClass -}}
 {{- end -}}
 
-{{/* Inject the DataTables class into the table tag */}}
-{{- $output := replaceRE "<table([^>]*)>" (printf "<table class=\"%s\"$1>" $class) $inner -}}
+{{/* Collect named params as data-* attributes (excluding class & theme) */}}
+{{- $attrs := slice -}}
+{{- range $key, $value := .Params -}}
+  {{- if and (ne $key "class") (ne $key "theme") -}}
+    {{- $attr := printf "data-%s=\"%s\"" $key $value -}}
+    {{- $attrs = $attrs | append $attr -}}
+  {{- end -}}
+{{- end -}}
+{{- $attrString := delimit $attrs " " -}}
 
-{{- $output | safeHTML -}}
+{{/* Prepare content and JSON/YAML block */}}
+{{- $json := "" -}}
+{{- $content := trim $inner "\n\r\t " -}}
+
+{{/* Match either ```json { ... }``` or ```yaml ...``` or generic fenced block */}}
+{{- $jsonBlock := findRE "(?s)```(?:json|yaml)?\\s*(\\{.*?\\}|[A-Za-z].*?:.*?)\\s*```" $content -}}
+{{- if $jsonBlock -}}
+  {{- $json = trim (index $jsonBlock 1) "\n\r\t " -}}
+  {{- $content = trim (replaceRE "(?s)```(?:json|yaml)?\\s*(\\{.*?\\}|[A-Za-z].*?:.*?)\\s*```" "" $content) "\n\r\t " -}}
+{{- end -}}
+
+{{/* Convert Markdown table to HTML if needed */}}
+{{- $isHTMLTable := findRE "<table" $content -}}
+{{- if not $isHTMLTable -}}
+  {{- $content = $content | markdownify -}}
+{{- end -}}
+
+{{/* Inject attributes */}}
+{{- $pattern := "<table([^>]*)>" -}}
+{{- $replacement := printf "<table class=\"%s\" %s$1>" $class $attrString -}}
+{{- $tableHTML := replaceRE $pattern $replacement $content -}}
+
+{{/* Build theme CSS link if exists */}}
+{{- $themeCSS := "" -}}
+{{- if $theme -}}
+  {{- $themePath := printf "css/datatables-%s.css" $theme -}}
+  {{- if (fileExists (printf "assets/%s" $themePath)) -}}
+    {{- $themeCSS = printf "<link rel=\"stylesheet\" href=\"/%s\">" $themePath -}}
+  {{- else if (fileExists (printf "static/%s" $themePath)) -}}
+    {{- $themeCSS = printf "<link rel=\"stylesheet\" href=\"/%s\">" $themePath -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Marshal JSON or YAML block to proper JSON if present */}}
+{{- if $json -}}
+  {{- $jsonPretty := transform.Remarshal "json" $json | safeHTML -}}
+  {{- printf "%s\n%s\n<script type=\"application/json\" class=\"dt-config\">%s</script>" $themeCSS $tableHTML $jsonPretty | safeHTML -}}
+{{- else -}}
+  {{- printf "%s\n%s" $themeCSS $tableHTML | safeHTML -}}
+{{- end -}}
