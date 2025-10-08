@@ -7,7 +7,7 @@ categories: [ "AI" ]
 ---
 ## Overview
 
-NotebookLM is an AI-powered research and note-taking assistant created by Google to help users better understand, summarize, and interact with their own materials—like PDFs, Google Docs, or web pages. Instead of behaving like a generic chatbot, it grounds its answers in your uploaded sources, providing summaries, citations, and contextual explanations that stay tied to the original text. It can also generate study guides, mind maps, timelines, and even multimedia overviews, turning static readings into dynamic learning aids. Google describes it as a “thinking partner” that helps you explore, synthesize, and make sense of complex information.
+NotebookLM is an AI-powered research and note-taking assistant created by Google to help users better understand, summarize, and interact with their own materials — like PDFs, Google Docs, or web pages. Instead of behaving like a generic chatbot, it grounds its answers in your uploaded sources, providing summaries, citations, and contextual explanations that stay tied to the original text. It can also generate study guides, mind maps, timelines, and even multimedia overviews, turning static readings into dynamic learning aids. Google describes it as a “thinking partner” that helps you explore, synthesize, and make sense of complex information.
 
 Originally launched as “Project Tailwind” in 2023, NotebookLM has grown into a full-fledged product with advanced features and a polished interface. By 2025, it introduced “Video Overviews,” which can automatically generate narrated, slide-style summaries of your content, and a redesigned “Studio” for producing multiple creative outputs per notebook. Its reasoning is powered by Google’s Gemini AI models, giving it robust language understanding and summarization abilities while maintaining transparency through inline citations. In essence, NotebookLM bridges note-taking, research, and AI-assisted learning into one integrated workspace.
 
@@ -65,4 +65,4 @@ media/video
 
 ## Conclusion
 
-This short test with NotebookLM was mostly about curiosity. I uploaded a few Enqack.net pages and let it generate the summaries on its own. The results were clear and captured the tone of the originals without much help. What stood out was how effortless the whole process felt—the space between writing, summarizing, and creating something new had almost vanished.
+This short test with NotebookLM was mostly about curiosity. I uploaded a few Enqack.net pages and let it generate the summaries on its own. The results were clear and captured the tone of the originals without much help. What stood out was how effortless the whole process felt — the space between writing, summarizing, and creating something new had almost vanished.
