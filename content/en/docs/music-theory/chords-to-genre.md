@@ -89,8 +89,6 @@ tags: [ "chords" ]
 
 ## Cross-genre twists
 
-Because creativity is king, you can blend styles:
-
 - Start with a synthwave progression (Am – F – C – G) but in the bridge shift to a chillwave take (Fmaj7 – G – Am7 – Em) to soften, then back.
 - Use a techno loop (Am – F – G) and overlay a chord “splash” (e.g. Dm7 or B♭maj7) every 8 bars.
 - Borrow a jazz chord (e.g. G13, Dm9) inside a trance progression as a pivot chord to change texture.
