@@ -1,1 +1,12 @@
 @import "/css/datatables/dataTables.bootstrap5.css";
+
+/* Restore full-width table layout for DataTables */
+.td-table .DataTables,
+.td-content .DataTables,
+.td-box .DataTables,
+table.DataTables {
+  display: table !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  border-collapse: collapse;
+}
