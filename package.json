@@ -43,7 +43,7 @@
     "datatables.net": "^2.3.4",
     "datatables.net-bs5": "^2.3.4",
     "datatables.net-dt": "^2.3.4",
-    "jquery": "^3.7.1"
+    "jquery": "^4.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
